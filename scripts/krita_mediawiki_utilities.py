@@ -297,7 +297,7 @@ def download_mediawiki_pages():
         # print(dataread)  # Test to make sure we have the mediawiki box data.
         mediawiki_markup = find_between(strng=dataread, first='name="wpTextbox1">', last='</textarea>')
         if mediawiki_markup:
-            pagenamedotmediawiki = pagename.replace('*', '') + '.mediawiki'
+            pagenamedotmediawiki = pagename.replace('*', '').replace(' ', '_') + '.mediawiki'
             print("Writing %s" % pagenamedotmediawiki)
             with open(pagenamedotmediawiki, 'w') as f:
                 f.write(mediawiki_markup)
