@@ -1,0 +1,21 @@
+{{ToolIcon|zoom}}
+
+The zoom tool allows you to zoom your canvas in and out discretely. It can be found at the bottom of the toolbox, and you just it by selecting the tool, and doing {{MouseButton|left}} on the canvas will zoom in, while {{MouseButton|right}} will zoom out.
+
+You can reverse this behaviour in the Tool Options.
+
+There's a number of hotkeys associated with this tool, which makes it easier to access from the other tools:
+
+* &lt;kbd>ctrl&lt;/kbd>+&lt;kbd>Space&lt;/kbd>+{{MouseButton|left}}+drag on the canvas will zoom in or out fluently.
+* &lt;kbd>ctrl&lt;/kbd>+{{MouseButton|middle}}+drag on the canvas will zoom in or out fluently.
+* &lt;kbd>ctrl&lt;/kbd>+&lt;kbd>alt&lt;/kbd>+&lt;kbd>Space&lt;/kbd>+{{MouseButton|left}}+drag on the canvas will zoom in or out with discrete steps.
+* &lt;kbd>ctrl&lt;/kbd>+&lt;kbd>alt&lt;/kbd>+{{MouseButton|middle}}+drag on the canvas will zoom in or out with discrete steps.
+* &lt;kbd>+&lt;/kbd> will zoom in with discrete steps.
+* &lt;kbd>-&lt;/kbd> will zoom out with discrete steps.
+* &lt;kbd>1&lt;/kbd> will set the zoom to 100%.
+* &lt;kbd>2&lt;/kbd> will set the zoom so that the document fits fully into the canvas area.
+* &lt;kbd>3&lt;/kbd> will set the zoom so that the document width fits fully into the canvas area.
+
+For more information on such hotkeys, check the [[Special:MyLanguage/Navigation|Navigation page]].
+
+[[Category: Toolbox]]

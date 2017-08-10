@@ -1,0 +1,20 @@
+.svg, or Scalable Vector Graphics, is the most modern vector graphics
+interchange file format out there.
+
+Being vector graphics, svg is very light weight. This is because it
+usually only stores coordinates and parameters for the maths involved
+with vector graphics.
+
+It is maintained by the w3c svg working group, who also maintain other
+open standards that make up our modern internet.
+
+While you can open up svg files with any text-editor to edit them, it is
+best to use a vector program like Inkscape. Krita supports importing svg
+via the add shape docker, but we hope to increase support in the future.
+
+svg is designed for the internet, though sadly, because vector graphics
+are considered a bit obscure compared to raster graphics, not a lot of
+websites accept them yet. Hosting them on your own webhost works just
+fine though.
+
+`S <category:_File_Formats>`__

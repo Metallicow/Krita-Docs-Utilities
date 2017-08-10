@@ -1,0 +1,15 @@
+Krita's brush editor is, as you may know, on &lt;kbd>F5&lt;/kbd>. However, sometimes you just want to modify a single parameter quickly. Perhaps even in canvas-only mode. The on canvas brush editor or brush HUD allows you to do this. It's accessible from the pop-up palette, by ticking the lower-right arrow button.
+
+[[File:On canvas brush editor.png|center]]
+
+You can change the amount of visible settings and their order by clicking the settings icon next to the brush name.
+
+[[File:On canvas brush editor 2.png|center]]
+
+On the left are all unused settings, on the right are all used settings. You use the {{MenuChoice|&amp;rarr;}} and {{MenuChoice|&amp;larr;}} buttons to move a setting between the two columns. The {{MenuChoice|up}} and {{MenuChoice|down}} buttons allow you to adjust the order of the used settings, for when you think flow is more important than size.
+
+[[File:On canvas brush editor 3.png|center]]
+
+These set-ups are PER brush engine, so different brush engines can have different configurations.
+
+[[Category:User Manual{{#translation:}}]]

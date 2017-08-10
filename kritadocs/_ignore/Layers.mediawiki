@@ -1,0 +1,71 @@
+[[File:Krita_Layers_Docker.png]]
+
+The Layers docker is for one of the core concepts of Krita: [[Special:MyLanguage/Introduction to Layers and Masks|Layer Management]]. You can add, delete, rename, duplicate and do many other things to layers here.
+
+==The Layer Stack==
+
+You can select the active layer here. Using &lt;kbd>shift&lt;/kbd> and &lt;kbd>ctrl&lt;/kbd> you can select multiple layers and drag-and-drop them. You can also change the visibility, edit state, alpha inheritance and rename layers. You can open and close groups, and you can drag and drop layers, either to reorder them, or to put them in groups.
+
+;Name
+:The Layer name, just do {{MouseButton|left}}+{{MouseButton|left}} to make it editable, and press &lt;kbd>Enter&lt;/kbd> to finish editing.
+;Label
+:This is a color that you can set on the layer. {{MouseButton|right}} the layer to get a context menu to assign a color to it. You can then later filter on these colors.
+;Blending Mode
+:This will set the [[Special:MyLanguage/Blending Modes|Blending Mode]] of the layer.
+;Opacity
+:This will set the opacity of the whole layer.
+;Visibility
+:An eye-icon. Clicking this can hide a whole layer.
+;Edit State (Or layer Locking)
+:A lock Icon. Clicking this will prevent the layer from being edited, useful when handling large amounts of layers.
+;Alpha Lock
+:This will prevent the alpha of the layer being edited. In more plain terms: This will prevent the transparency of a layer being changed. Useful in colouring images.
+;Pass-through mode
+:Only available on Group Layers, this allows you to have the blending modes of the layers within affect the layers outside the group. Doesn't work with masks currently, therefore these have a strike-through on group layers set to pass-through.
+;Alpha Inheritance
+:This is kinda difficult to explain. Basically, this will use the alpha of all the peers of this layer as a transparency mask. (This WILL need and image)
+;Open or Close Layers
+:(An Arrow Icon) This will allow you to access sub-layers of a layer. Seen with masks and groups.
+;Onion Skin
+:This is only available on [[Special:MyLanguage/Animation|animated layers]], and toggles the onion skin feature.
+;Layer Style
+:This is only available on layers which have a [[Special:MyLanguage/Layer Styles|layer style]] assigned. The button allows you to switch between on/off quickly.
+
+To edit these properties on multiple layers at once, press the properties option when you have multiple layers selected or press &lt;kbd>F3&lt;/kbd>
+There, to change the names of all layers, the checkbox before {{MenuChoice|Name}} should be ticked after which you can type in a name. Krita will automatically add a number behind the layer-names. You can change other layer properties like visibility, opacity, lock states etc too.
+
+[[File:Krita-multi-layer-edit.png]]
+
+==Lower buttons==
+These are buttons for doing layer operations.
+
+;Add
+:Will by default add a new Paint Layer, but using the little arrow, you can call a sub-menu with the other layer types.
+;Duplicate
+:Will Duplicate the active layer(s). Can be quickly invoked with &lt;kbd>Ctrl&lt;/kbd>+{{MouseButton|left}}+drag.
+;Move layer up.
+:Will move the active layer up. Will switch them out and in groups when coming across them.
+;Move layer down.
+:Will move the active layer down. Will switch them out and in groups when coming across them.
+;Layer properties.
+:Will open the layer properties window.
+;Delete
+:Will delete the active layer(s). For safety reasons, you can only delete visible layers.
+
+==Hot keys and Sticky Keys==
+
+* &lt;kbd>Shift&lt;/kbd> and &lt;kbd>Ctrl&lt;/kbd> for selecting multiple layers.
+* &lt;kbd>Ctrl&lt;/kbd>+{{MouseButton|left}}+drag - makes a duplicate of the selected layers, for you to drag and drop.
+* &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>E&lt;/kbd> for merging a layer down. This also merges selected layers, layer styles and will keep selection masks in tact. Using &lt;kbd>ctrl&lt;/kbd>+&lt;kbd>E&lt;/kbd> on a single layer with a mask will merge down the mask into the layer.
+* &lt;kbd>Ctrl&lt;/kbd>+&lt;kbd>Shift&lt;/kbd>+&lt;kbd>E&lt;/kbd> merges all layers.
+* &lt;kbd>R&lt;/kbd>+{{MouseButton|left}} allows you to select layers on canvas, similar to picking colours directly on canvas. Use &lt;kbd>Shift&lt;/kbd>+&lt;kbd>R&lt;/kbd>+{{MouseButton|left}} for multiple layers.
+* &lt;kbd>ins&lt;/kbd> for adding a new layer. 
+* &lt;kbd>Ctrl&lt;/kbd>+&lt;kbd>G&lt;/kbd> will create a group layer. If multiple layers are selected, they are put into the group layer.
+* &lt;kbd>Ctrl&lt;/kbd>+&lt;kbd>Shift&lt;/kbd>+&lt;kbd>G&lt;/kbd> will quickly set-up a clipping group, with the selected layers added into the group, and a new layer added on top with alpha-inheritance turned on, ready for painting!
+* &lt;kbd>ctrl&lt;/kbd>+&lt;kbd>Alt&lt;/kbd>+&lt;kbd>G&lt;/kbd> will ungroup layers inside a group.
+* &lt;kbd>Alt&lt;/kbd> + {{MouseButton|left}} on the thumbnail for isolated view of a layer. This will maintain between layers till the same action is repeated again.
+* &lt;kbd>Shift&lt;/kbd> + {{MouseButton|left}} on the eye-icon for hidding all but the current layer.
+* &lt;kbd>Page Up&lt;/kbd> and &lt;kbd>Page Down&lt;/kbd> for switching between layers.
+* &lt;kbd>Ctrl&lt;/kbd>+&lt;kbd>Page Up&lt;/kbd> and &lt;kbd>Ctrl&lt;/kbd>+&lt;kbd>Page Down&lt;/kbd> will move the selected layers up and down.
+
+[[Category:Dockers{{#translation:}}]]

@@ -1,0 +1,22 @@
+Sometimes, you want to add an even border around a selection. Stroke Selection allows you to do this. It's under {{MenuChoice|Edit &amp;rarr; Stroke Selection}}
+
+First make a selection and call up the menu:
+
+[[File:Krita stroke selection 1.png|center]]
+
+The main options are about using the current brush, or lining the selection with an even line. You can use the current foreground color, the background color or a custom color.
+
+Using the current brush allows you to use textured brushes:
+
+[[File:Stroke selection 2.png|center]]
+
+Lining the selection also allows you to set the background color, on top of the line width in pixels or inches:
+
+[[File:Krita stroke selection 3.png|center]]
+
+This creates nice silhouettes:
+
+[[File:Stroke Selection 4.png|center]]
+
+[[Category:Reference Manual]]
+&lt;!--Note: This page is being linked to from the main menu edit page, so it doesn't need to be cataorised-->

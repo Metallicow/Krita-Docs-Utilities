@@ -1,0 +1,58 @@
+Educational training that was mostly done outside of the Krita Foundation. Most of the links are from YouTube videos or other Krita artists. 
+
+'''PDF Guide''':  [https://share.kde.org/public.php?service=files&amp;amp;t=6d5da90302e50671f3f94b308ffad2a3 English]  [https://share.kde.org/public.php?service=files&amp;amp;t=60655999b78944eb12ceff5f61c3619b Japanese]  [https://share.kde.org/public.php?service=files&amp;amp;t=d73b124e1093953862fe0b728d0030bf Italian]  [https://share.kde.org/public.php?service=files&amp;#038;t=67ad17622c9338510a7c4f128a8a0f03 Polish]
+
+[http://ghevan.deviantart.com/art/Krita-2-8-shortcuts-sheet-Dark-435305013 2.8 Keyboard Shortcuts]
+
+===Video Tutorials (Fundamentals)===
+* [https://www.youtube.com/watch?v=8ZpA_VTbHTUGetting Started]
+* [https://www.youtube.com/watch?v=FiOvekdqC9QUser Interface]
+* [https://userbase.kde.org/Krita/Tutorial_2 Layer Management, Masks, Selection]
+* [https://www.youtube.com/watch?v=c7fPGrpwtWgFrames (for Comics)]
+* [https://www.youtube.com/watch?v=ecPfsjbtgEw Colors, Shading, Blending Modes]
+* [https://www.youtube.com/watch?v=Tmm747kSqNA Exporting, File type conversions]
+* [https://www.youtube.com/watch?v=v725lrk3ALc Configuring Wacom tablet and Workspaces]
+* [https://userbase.kde.org/Krita/Tutorial_1 The most useful interface features]
+* [https://www.youtube.com/watch?v=tOqdE4JJOjU Configuring Krita for pixel art]
+* [https://www.youtube.com/watch?v=oaASvszzetU Multiview Setup]
+
+==Video Tutorials with Brushes and Features==
+* [https://userbase.kde.org/Krita/Tutorial_4A Pixel Brush: Part 1 ]
+* [https://userbase.kde.org/Krita/Tutorial_4B Pixel Brush: Part 2 ]
+* [https://userbase.kde.org/Krita/Tutorial_5 Color Smudge ]
+* [https://userbase.kde.org/Krita/Tutorial_6 Curve, Particle, and Dyna ]
+* [https://userbase.kde.org/Krita/Tutorial_7 Sketch, Hairy, and Chalk ]
+* [https://userbase.kde.org/Krita/Tutorial_8 Hatching, Grid, Spray, and Experimental ]
+* [https://www.youtube.com/watch?v=9ICGks0-InQ Tileable Textures (Wrap-Around Mode) ]
+* [https://www.youtube.com/watch?v=KrFVLJvn33k Drawing Assistants ]
+* [https://www.youtube.com/watch?v=Jy5LZRE7ErU Symmetry tool and Stabilizer brush ]
+* [https://www.youtube.com/watch?v=1J9s7dNuSe4 Cage Transform  ]
+* [http://davidrevoy.com/article247/krita-2-9-comic-coloring-tutorial Perspective Transform ] 
+* [https://www.youtube.com/watch?v=esSzKzXVWQE HDR Painting  ]
+* [http://davidrevoy.com/article247/krita-2-9-comic-coloring-tutorial Interactive Coloring ] 
+* [https://www.youtube.com/watch?v=7kt1p8bvAzs Color Curves and Filter Masks ]
+* [https://www.youtube.com/watch?v=frvLTWnOts4 Array Clone ]
+* [https://www.youtube.com/watch?v=XIsQCGFM8J0 Popup Docker and Favorites ]
+* [https://www.youtube.com/watch?v=iWY7PYSvMIw Digital Color Mixer ]
+
+== Written Tutorials==
+* [http://theratutorial.tumblr.com/post/105461686188/digging-into-the-surface-materials Digging into Surface Materials]
+* [http://theratutorial.tumblr.com/post/111579157763/matte-painting-creating-illusions-on-a-good-base Matte Painting]
+
+==GDQuest (2.9+)==
+* [https://www.youtube.com/watch?v=9uvju6sUNJA Overview of the Animation Toolset in Krita 2.9 Beta]
+* [https://www.youtube.com/watch?v=c9yiBRFQnbo Overview of the Instant Preview beta in Krita 2.9]
+* [https://www.youtube.com/watch?v=PIKfrqk09Hk Krita&amp;#8217;s New Features since v2.9.5 ]
+* [https://www.youtube.com/watch?v=UM3OOwZ4NnE Convert any Brush to Pixel Art]
+* [https://www.youtube.com/watch?v=IrmvsnDiAuc Painting with Krita - Overview]
+* [https://www.youtube.com/watch?v=c9yiBRFQnbo Overview of the Instant Preview beta in Krita 2.9]
+* [https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ/videos See More of GDQuest on YouTube]
+
+==Katarzyna Oleska's Youtube tutorials (2.9+):==
+* [https://www.youtube.com/watch?v=X-IVhtfjr9s How to Customize your Krita Workspace]
+* [https://www.youtube.com/watch?v=_GXyUsjjAdg How to color your line art with Krita]
+* [https://www.youtube.com/watch?v=MzcezsUgsoY How to draw a caricature sketch with Krita]
+* [https://www.youtube.com/watch?v=DLNlcqbQTtY How to open a view in a new window with Krita]
+
+__NOTOC__
+[[Category:Tutorials]]

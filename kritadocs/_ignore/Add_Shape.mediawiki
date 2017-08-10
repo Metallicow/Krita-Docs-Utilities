@@ -1,0 +1,5 @@
+[[File:Krita_Add_Shape_Docker.png]]
+
+A docker for adding KOffice shapes to a Vector Layers.
+
+[[Category:Dockers{{#translation:}}]]

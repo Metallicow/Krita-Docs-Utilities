@@ -1,0 +1,25 @@
+Krita's default saving format is the [[Special:MyLanguage/*.kra|*.kra]] format. This format saves everything Krita can manipulate about an image: Layers, Filters, Assistants, Masks, Color spaces, etc. However, that's a lot of data, so *.kra files are pretty big. This doesn't make them very good for uploading to the internet. Imagine how many people's data-plans hit the limit if they only could look at *.kra files! So instead, we optimise our images for the web.
+
+There's a few steps involved:
+
+# Save as a .kra. This is your working file and serves as a backup if you make any mistakes.
+# Flatten all layers. This turns all your layers into a single one. Just go to &lt;span class="menuchoice">Layer &amp;rarr; Flatten Image&lt;/span> or press &lt;kbd>Ctrl&lt;/kbd>+&lt;kbd>Shift&lt;/kbd>+&lt;kbd>E&lt;/kbd>. Flattening can take a while, so if you have a big image, don't be scared if Krita freezes for a few seconds. It'll become responsive soon enough.
+# Convert the color space to 8bit sRGB(if it isn't yet). This is important to lower the filesize, and PNG for example can't take higher than 16bit. &lt;span class="menuchoice">Image &amp;rarr; Convert Image Color Space&lt;/span> and set the options to '''RGB''', '''8bit''' and '''sRGB-elle-v2-srgbtrc.icc''' respectively. If you are coming from a linear space, uncheck &lt;span class="menuchoice">little CMS optimisations&lt;/span>
+# Resize! Go to &lt;span class="menuchoice">image &amp;rarr; scale image to new size&lt;/span> or use &lt;kbd>Ctrl&lt;/kbd>+&lt;kbd>Alt&lt;/kbd>+&lt;kbd>I&lt;/kbd>. This calls up the resize menu. A good rule of thumb for resizing is that you try to get both sizes to be less than 1200 pixels. (This being the size of HD formats). You can easily get there by setting the &lt;span class="menuchoice">Resolution&lt;/span> under &lt;span class="menuchoice">Print Pize&lt;/span> to '''72''' dots per inch. Then press &lt;span class="menuchoice">OK&lt;/span> to have everything resized.
+# Save as a web-safe image format. There's three that are especially recommended:
+
+; [[Special:MyLanguage/*.jpg|JPG]]
+: Use this for images with a lot of different colors, like paintings.
+; [[Special:MyLanguage/*.png|PNG]]
+: Use this for images with few colours or which are black and white, like comics and pixel-art. Select 'save indexed if possible' to optimise even more.
+; [[Special:MyLanguage/*.gif|GIF]]
+: Only use this for animation(will be supported this year) or images with a super low color count, because they will get indexed.
+
+=== Saving with Transparency ===
+
+[[File:Save with transparency.png|center]]
+Saving with transparency is only possible with gif and png. First, make sure you see the transparency checkers(this can be done by simply hiding the bottom layers, changing the projection color in {{MenuChoice|Image &amp;rarr; Image Background Color and Transparency}}, or by using {{MenuChoice|Filters &amp;rarr; Color &amp;rarr; Color to Alpha}}. Then, save as PNG and tick {{MenuChoice|Store Alpha Channel}}
+
+Save your image, upload, and show it off!
+
+[[Category:Tutorials]]

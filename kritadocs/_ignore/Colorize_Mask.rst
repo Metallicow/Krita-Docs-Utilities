@@ -1,0 +1,38 @@
+A tool for quickly coloring lineart, the Colorize Mask Editing tool can
+be found next to the gradient tool on your toolbox.
+
+This feature is in 3.1, but disabled by default because we have not
+optimised the filling algorithm for production use yet. To enable it,
+find your krita configuration file, open it in notepad, and add
+“disableColorizeMaskFeature=false” to the top. Then restart Krita.
+
+This tool works in conjunction with the colorize mask, and the usage is
+as follows:
+
+#. You have a lineart.
+#. Select the colorize mask editing tool while having the lineart layer
+   selected. Ticking the canvas will add a colorize mask to the layer.
+#. You make strokes with brush colors.
+#. Press update in the tool options.
+#. Wait a small forever(we are working on this)
+#. Now you will see the filled in areas semi-transparent. Press the
+   brush icon on the colorize layer to see the strokes as they'll end
+   up.
+#. Now, to edit again, press the brush icon again.
+#. In the tool options of the colorize editing tool you will see a small
+   palette. These are the colors already used. You can remove colors
+   here, or mark a single color as standing for transparent, by
+   selecting it and pressing “transparent”.
+#. Other brushes and tools also work on the colorize mask as long as
+   they can draw.
+#. When saving, the colorized mask is saved into the kra file.
+#. When you are done, rightclick the colorize mask and convert it to a
+   paint layer.
+#. Then apply layer->split->split layer to it, so you can start
+   colouring each color island separately.
+
+Colorize masks are not animatable for now.
+
+`Phabricator Task <https://phabricator.kde.org/T372>`__
+
+Category:Unstable_Features

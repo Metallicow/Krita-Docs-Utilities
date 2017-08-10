@@ -1,0 +1,11 @@
+Edge detection filters focus on finding sharp contrast or border between
+colors in an image to create edges or lines. Krita offers the following
+type of edge detections:
+
+-  Top edge detection
+-  Sobel
+-  Left Edge detection
+-  Bottom Edge detection
+-  Right Edge Detection
+
+Category:Internal_filters

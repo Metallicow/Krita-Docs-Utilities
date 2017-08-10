@@ -1,0 +1,57 @@
+Also known as Numerical Input boxes. You can make Krita do simple maths for you in the places where we have number input. Just select the number in a spinbox, or rightclick a slider to activate number input. It doesn't do unit conversion yet, but this is planned.
+
+== Possible Functions ==
+
+;Addition (Operator&lt;nowiki>:&lt;/nowiki> + )
+:Just adds the numbers. Usage: &lt;code>50+100&lt;/code> Output: &lt;code>150&lt;/code>
+;Subtraction (Operator&lt;nowiki>:&lt;/nowiki> - )
+:Just subtracts the last number from the first. Usage: &lt;code>50-100&lt;/code> Output: &lt;code>50&lt;/code>
+;Multiplication (Operator&lt;nowiki>:&lt;/nowiki> * )
+:Just multiplies the numbers. Usage: &lt;code>50*100&lt;/code> Output: &lt;code>5000&lt;/code>
+;Division (Operator&lt;nowiki>:&lt;/nowiki> / )
+:Just multiplies the numbers. Usage: &lt;code>50/100&lt;/code> Output: &lt;code>0.5&lt;/code>
+;Exponent (Operator&lt;nowiki>:&lt;/nowiki> ^ )
+:Makes the last number the exponent of the first and calculates the result. Usage: &lt;code>2^8&lt;/code> Output: &lt;code>256&lt;/code>
+;Sine (Operator&lt;nowiki>:&lt;/nowiki> sin() )
+:Gives you the sine of the given angle. Usage: &lt;code>sin(50)&lt;/code> Output: &lt;code>0.76&lt;/code>
+;Cosine (Operator&lt;nowiki>:&lt;/nowiki> cos() )
+:Gives you the cosine of the given angle. Usage: &lt;code>cos(50)&lt;/code> Output: &lt;code>0.64&lt;/code>
+;Tangent (Operator&lt;nowiki>:&lt;/nowiki> tan() )
+:Gives you the tangent of the given angle. Usage: &lt;code>tan(50)&lt;/code> Output: &lt;code>1.19&lt;/code>
+;Arc Sine (Operator&lt;nowiki>:&lt;/nowiki> asin() )
+:Inverse function of the sinus, gives you the angle which the sinus equals the argument. Usage: &lt;code>asin(0.76)&lt;/code> Output: &lt;code>50&lt;/code>
+;Arc Cosine (Operator&lt;nowiki>:&lt;/nowiki> acos() )
+:Inverse function of the cosinus, gives you the angle which the cosinus equals the argument. Usage: &lt;code>acos(0.64)&lt;/code> Output: &lt;code>50&lt;/code>
+;Arc Tangent (Operator&lt;nowiki>:&lt;/nowiki> atan() )
+:Inverse function of the tangent, gives you the angle which the tangent equals the argument. Usage: &lt;code>atan(1.19)&lt;/code> Output: &lt;code>50&lt;/code>
+;Absolute (Operator&lt;nowiki>:&lt;/nowiki> abs() )
+:Gives you the value without negatives. Usage: &lt;code>abs(75-100)&lt;/code> Output: &lt;code>25&lt;/code>
+;Exponent (Operator&lt;nowiki>:&lt;/nowiki> exp() )
+:Gives you given values using e as the exponent. Usage: &lt;code>exp(1)&lt;/code> Output: &lt;code>2.7183&lt;/code>
+;Natural Logarithm (Operator&lt;nowiki>:&lt;/nowiki> ln() )
+:Gives you the natural logarithm, which means it has the inverse functionality to exp(). Usage: &lt;code>ln(2)&lt;/code> Output: &lt;code>0.6931&lt;/code>
+
+The following are technically supported but bugged:
+;Common Logarithm (Operator&lt;nowiki>:&lt;/nowiki> log10() )
+:Gives you logarithms of the given value. Usage: &lt;code>log10(50)&lt;/code> Output: &lt;code>0.64&lt;/code>
+
+== Order of Operations. ==
+The order of operations is a globally agreed upon reading order for interpreting mathematical expressions. It solves how to read an expression like:
+
+&lt;code>2+3*4&lt;/code>
+
+You could read it as 2+3 = 5, and then 5*4 =20. Or you could say 3*4 = 12 and then 2+12 = 14.
+
+The order of operations itself is Exponents, Multiplication, Addition, Subtraction. So we first multiply, and then add, making the answer to the above 14, and this is how Krita will interpret the above.
+
+We can use brackets to specify certain operations go first, so to get 20 from the above expression, we do the following:
+
+&lt;code>( 2+3 )*4&lt;/code>
+
+Krita can interpret the brackets accordingly and will give 20 from this.
+
+== Errors ==
+
+Sometimes, you see the result becoming red. This means you made a mistake and Krita cannot parse your maths expression. Simply click the input box and try again.
+
+[[Category:Reference Manual]]

@@ -1,0 +1,28 @@
+
+
+
+{{ToolIcon|ellipse}}
+
+Use this tool to paint an ellipse. The currently selected brush is used for drawing the ellipse outline. Click and hold the left mouse button to indicate one corner of the ‘bounding rectangle’ of the ellipse, then move your mouse to the opposite corner. '''Krita''' will show a preview of the ellipse using a thin line. Release the button to draw the ellipse.
+
+While dragging the ellipse, you can use different modifiers to control the size and position of your ellipse:
+
+In order to make a circle instead of an ellipse, hold &lt;kbd>Shift&lt;/kbd> while dragging. After releasing &lt;kbd>Shift&lt;/kbd> any movement of the mouse will give you an ellipse again:
+
+[[File:krita_ellipse_circle.gif|center]]
+
+In order to keep the center of the ellipse fixed and only growing and shrinking the ellipse around it, hold &lt;kbd>Ctrl&lt;/kbd> while dragging:
+
+[[File:krita_ellipse_from_center.gif|center]]
+
+In order to move the ellipse around, hold &lt;kbd>Alt&lt;/kbd>:
+
+[[File:krita_ellipse_reposition.gif|center]]
+
+You can change between the corner/corner and center/corner dragging methods as often as you want by holding down or releasing &lt;kbd>Ctrl&lt;/kbd>, provided you keep the left mouse button pressed. With &lt;kbd>Ctrl&lt;/kbd> pressed, mouse movements will affect all four corners of the bounding rectangle (relative to the center), without &lt;kbd>Ctrl&lt;/kbd>, the corner opposite to the one you are moving remains still. With &lt;kbd>Alt&lt;/kbd> pressed, all four corners will be affected, but the size stays the same.
+
+==Tool Options==
+
+
+
+[[Category:Toolbox]]

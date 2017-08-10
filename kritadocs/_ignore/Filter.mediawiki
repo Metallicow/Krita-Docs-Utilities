@@ -1,0 +1,41 @@
+Where in other programs you have a 'dodge tool', 'blur tool' and 'sharpen tool', Krita has a special brush engine for this: The Filter Brush engine. On top of that, due to Krita's great integration of the filters, a huge amount of filters you'd never thought you wanted to use for a drawing are possible in brush form too!
+=Reference=
+
+The filter brush has of course some basic brush-system parameters:
+*[[Special:MyLanguage/Brush Tips|Brush tip]]
+*[[Special:MyLanguage/Blending Modes|Blending Mode]]
+*[[Special:MyLanguage/Opacity &amp; Flow|Opacity]]
+*[[Special:MyLanguage/Parameters#Size|Size]]
+*[[Special:MyLanguage/Parameters#Rotation|Rotation]]
+*[[Special:MyLanguage/Parameters#Mirror|Mirror]]
+
+==Filters==
+The following filters can be used by the filter brush:
+Smudge mode tries to blur in the result a little.
+
+*[[Special:MyLanguage/Colors#Color to Alpha|Color to Alpha]]
+*[[Special:MyLanguage/Adjust#Dodge|Dodge]]
+*[[Special:MyLanguage/Enhance#Sharpen|Sharpen]]
+*[[Special:MyLanguage/Adjust#Burn|Burn]]
+*[[Special:MyLanguage/Blur#Gaussian Blur|Gaussiant Blur]]
+*[[Special:MyLanguage/Map#Small Tiles|Small Tiles]]
+*[[Special:MyLanguage/Blur#Motion Blur|Motion Blur]]
+*[[Special:MyLanguage/Adjust#Color Adjustment|Color Adjustment]]
+*[[Special:MyLanguage/Artistic#Pixellize|Pixellize]]
+*[[Special:MyLanguage/Blur#Blur|Blur]]
+*[[Special:MyLanguage/Artistic#Index Colors|Index Colors]]
+*[[Special:MyLanguage/Artistic#Posterize|Posterize]]
+*[[Special:MyLanguage/Other filters#Noise|Noise]]
+*[[Special:MyLanguage/Adjust#Color Balance|Color Balance]]
+*[[Special:MyLanguage/Map#Phong Bumbmap|Phong Bumbmap]]
+*[[Special:MyLanguage/Adjust#Desaturnate|Desaturnate]]
+*[[Special:MyLanguage/Blur#Lens Blur]]
+*[[Special:MyLanguage/Colors#Maximize Channel|Maximize Channel]]
+*[[Special:MyLanguage/Colors#Minimize Channel|Minimize Channel]]
+*[[Special:MyLanguage/Artistic#Oilpaint|Oilpaint]]
+*[[Special:MyLanguage/Adjust#Invert|Invert]]
+*[[Special:MyLanguage/Enhance#Unsharp Mask|Unsharp Mask]]
+*[[Special:MyLanguage/Other filters#Random Pick|Random Pick]]
+*[[Special:MyLanguage/Adjust|HSV/HSL adjustment]].
+
+[[Category:Brush Engines{{#translation:}}]]

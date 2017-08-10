@@ -1,0 +1,10 @@
+__NOTOC__
+
+These are the brush tip or textures used in the brush presets. They can be png files or .abr file from Photoshop or .gbr files from gimp
+{{Note | currently Krita only import a brush texture from abr file , you have to recreate the brushes by adding appropriate values in size, spacing etc. to recreate the brushes}}
+
+They can be modified/tagged in the brush preset editor.
+
+See [[Brush Tips|brush tips]] for more info.
+
+[[Category:Resource Management]]

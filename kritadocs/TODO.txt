@@ -1,0 +1,115 @@
+
+TODO List
+=========
+
+ =======================
+ Manual Conversion Stuff
+ =======================
+ [ ] Basic conversion from the pandoc exports of all files/pages to .rst included in the index(Main_Page).rst TOC tree.
+     [ ] Rereview all syntax changes/section/etc below in *this* TODO.txt.
+     [ ] Mark the date of the .mediawiki files download in the readme/todo file so to track changes to the wiki with git/github thereafter all files/pages are initially converted.
+
+ -----------
+ Image Stuff
+ -----------
+ [ ] Download all page images(this apparently has to be done manually for each page, as I do them). Sort them out into images/pagename directories.(Sphinx will drop them all into a single dir when building)
+        I've downloaded all images up to this page already `Bristle`
+
+ [ ] When all pages are done... Convert all .jpg to .png. 
+     Then run all .png's thru FileOptimizer ->  https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/
+     Sorry FileOptimizer is only 'Windows', ...tho linux/mac could make a port gui app. It's just a bunch of utilities and commandline options...
+     This "should" fix the pdf artifacts...
+
+ [ ] Rename images as approriate for readability and consistency. Ex: No 500px- stuff at the beginning of a filename.
+
+ --------------
+ Syntax Changes
+ --------------
+ [ ] Change <kbd>Ctrl + Shortcut</kbd> keyboard shortcuts. to :kbd:`Ctrl + Shortcut`
+
+ [ ] Change <span class=“menuchoice”> Bla &rarr; Bla </span> to :menuselection:`Settings --> Dockers --> Brush Preset Docker`
+     [ ] Uppercase the item texts like in the App menus. Ex: Window instead of window. Check all cases.
+     [ ] Make sure all texts are worded like in the app.
+
+ [ ] Collect .mediawiki infos for all the :search:'Special' pages and convert. mostly to interdoc links :doc:
+ [ ] Convert inter-doc links to :doc:`pagename <pagename>`. pandoc didn't do these right.
+
+ [ ] Pandoc choked on a few pages. Convert them manually.
+     * Gamma_and_Linear.mediawiki needs fixedConverted/Manually to a .rst
+
+ [ ] What to do with the <tt> tag... probably just erase them.
+
+ [ ] .. raw:: mediawiki stuff. Most are `Note` and `Warning`. :see: `Info` todo item below.
+ 
+ [ ] The mousebutton png and some other small images didnt show up in the converted rst. Check all these. :search: for these in the mediawiki files to pin down.
+     As the mouse images are general, stick them into the substitutions.inc include file.
+
+ --------------
+ Page Structure
+ --------------
+ [ ] Every page needs a main header at the top. Only one of these per file/page. Pandoc screwed up on a few of these.
+
+     Main Header
+     ===========
+
+ -----------------
+ Custom Directives
+ -----------------
+ [ ] Figure out what to do with ..raw:: mediawiki   Info items.
+     Currently I'm just converting them to .. Note:: . :search: the .mediawiki files later to pin point the ones needing changed back.
+     I recall wxpython implemented a .. Info:: directive.
+        :see: https://github.com/wxWidgets/Phoenix
+
+ ----------
+ Css Tweaks
+ ----------
+ [ ] Definition lists are not showing up as bolded. probably a css tweek. Other: manually **Bold** them all, a pain in the ass.
+
+
+ -----------
+ Translation
+ -----------
+ [ ] Cluttered with translation stuff. Not sure what to do other than list the files to be rereviewed by a translation guru.
+     ...stuff like this:  <!--T:117-->
+     * Basic_Concepts.rst  (Cleaned manually)
+     * KritaFAQ.rst        (Still looks like a NIGHTMARE!)
+
+ ---------------------
+ Misc/Other/Discussion
+ ---------------------
+ [ ] Make sure wikipages with contents get added to the rst docs. .. contents:: modifys the header text colors.... why? Should we maintain them manually?
+
+     .. contents:: Contents
+        :local:
+
+     **Contents** (Manually done. Titles as links.)
+        * 1 `Creating a New Document`_
+           * 1.1 `Recent Document`_
+           * 1.2 `Custom Document`_
+           * 1.3 `Create From Clipboard:`_
+           * 1.4 `Templates:`_
+        * 2 `How to use brushes`_
+        * 3 `Erasing`_
+        * 4 `Saving and opening files`_
+
+ [ ] .. figure::
+        :figwidth: image
+
+     doesn't allow :align: center to be centered.
+
+ ---------------
+ Main Page Stuff
+ ---------------
+ [ ] Investigate blender's .. container:: code(index) I used for the main_page.rst so as to fix grid alignment.
+ [ ] Revise the main page wording as it won't be a "wiki" anymore.
+
+ [ ] Color.rst needs color tables implemented in html or something. Maybe use an image?
+
+ ----------------------------
+ Polishing/Nearing Completion
+ ----------------------------
+ [ ] Handle catagory tree stucture in catagory pages.
+ [ ] Let the krita folks tweak the theme, sidebars, extra html to their own liking if needbe. Maybe they want to imitate the mediawiki look...? I dunno...
+
+
+

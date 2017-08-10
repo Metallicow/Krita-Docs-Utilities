@@ -1,0 +1,4 @@
+All of the features that Krita includes.
+
+
+[[Category:Documentation|1]]

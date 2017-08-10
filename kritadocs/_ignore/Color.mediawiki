@@ -1,0 +1,148 @@
+Okay, so, colors.
+
+Colors are pretty, and they're pretty fundamental to painting. So, when we are painting, we want to be able to access colors easily and do fun stuff with them, like mixing. And we want to be able to quickly find our red and blue, without thinking too hard. And this becomes even more important the more colors we have access to.
+
+So, the first thing we do is organize our colors. We usually base this on systems we see in nature. For example, we tend to order hues by the order given to us by rainbows, and the brightness of greytints as a tonal range, from white to black.
+
+[[File:Krita color mixing natural order.png|center]]
+
+In the case of traditional media, we order colors by how they result from mixes of other colors, starting with the primaries.
+
+[[File:Krita color mixing traditional order.png|center]]
+
+For computers, this is similar, and we order colors by the way the screen generates them: Each color on the screen can be produced by combining red, green and blue lights of varying intensities. So we can try to make a list of possible intensities, and show the color that produces:
+
+{| class="wikitable"
+|-
+|style="background-color:#000; color:#fff;"| 0% Red
+|style="background-color:#400; color:#fff;"| 25% Red 
+|style="background-color:#800; color:#fff;"| 50% Red 
+|style="background-color:#b00; color:#fff;"| 75% Red
+|style="background-color:#f00; color:#fff;"| 100% Red
+|}
+
+Eventually, you start to systematically add more color variations, for example, what if we order Red and Green like a table:
+
+{| class="wikitable"
+|-
+!   !! 0% Red !! 25% Red !! 50% Red !! 75% Red !!  100% Red
+|-
+| 0% Green ||style="background-color:#000;"|  ||style="background-color:#400;"|  ||style="background-color:#800;"|  ||style="background-color:#b00;"|  ||style="background-color:#f00;" |
+|-
+| 25% Green ||style="background-color:#040;"|  ||style="background-color:#440;"|  ||style="background-color:#840;"|  ||style="background-color:#b40;"|  ||style="background-color:#f40;" |
+|-
+| 50% Green ||style="background-color:#080;"|  ||style="background-color:#480;"|  ||style="background-color:#880;"|  ||style="background-color:#b80;"|  ||style="background-color:#f80;" |
+|-
+| 75% Green ||style="background-color:#0b0;"|  ||style="background-color:#4b0;"|  ||style="background-color:#8b0;"|  ||style="background-color:#bb0;"|  ||style="background-color:#fb0;" |
+|-
+| 100% Green ||style="background-color:#0f0;"|  ||style="background-color:#4f0;"|  ||style="background-color:#8f0;"|  ||style="background-color:#bf0;"|  ||style="background-color:#ff0;" |
+|}
+
+And then, we can make multiple of these tables to count in blue as well:
+
+{| class="wikitable"
+|-
+! 0% Blue !! 0% Red !! 25% Red !! 50% Red !! 75% Red !!  100% Red
+|-
+| 0% Green ||style="background-color:#000;"|  ||style="background-color:#400;"|  ||style="background-color:#800;"|  ||style="background-color:#b00;"|  ||style="background-color:#f00;" |
+|-
+| 25% Green ||style="background-color:#040;"|  ||style="background-color:#440;"|  ||style="background-color:#840;"|  ||style="background-color:#b40;"|  ||style="background-color:#f40;" |
+|-
+| 50% Green ||style="background-color:#080;"|  ||style="background-color:#480;"|  ||style="background-color:#880;"|  ||style="background-color:#b80;"|  ||style="background-color:#f80;" |
+|-
+| 75% Green ||style="background-color:#0b0;"|  ||style="background-color:#4b0;"|  ||style="background-color:#8b0;"|  ||style="background-color:#bb0;"|  ||style="background-color:#fb0;" |
+|-
+| 100% Green ||style="background-color:#0f0;"|  ||style="background-color:#4f0;"|  ||style="background-color:#8f0;"|  ||style="background-color:#bf0;"|  ||style="background-color:#ff0;" |
+|}
+
+{| class="wikitable"
+|-
+! 25% Blue !! 0% Red !! 25% Red !! 50% Red !! 75% Red !!  100% Red
+|-
+| 0% Green ||style="background-color:#004;"|  ||style="background-color:#404;"|  ||style="background-color:#804;"|  ||style="background-color:#b04;"|  ||style="background-color:#f04;" |
+|-
+| 25% Green ||style="background-color:#044;"|  ||style="background-color:#444;"|  ||style="background-color:#844;"|  ||style="background-color:#b44;"|  ||style="background-color:#f44;" |
+|-
+| 50% Green ||style="background-color:#084;"|  ||style="background-color:#484;"|  ||style="background-color:#884;"|  ||style="background-color:#b84;"|  ||style="background-color:#f84;" |
+|-
+| 75% Green ||style="background-color:#0b4;"|  ||style="background-color:#4b4;"|  ||style="background-color:#8b4;"|  ||style="background-color:#bb4;"|  ||style="background-color:#fb4;" |
+|-
+| 100% Green ||style="background-color:#0f4;"|  ||style="background-color:#4f4;"|  ||style="background-color:#8f4;"|  ||style="background-color:#bf4;"|  ||style="background-color:#ff4;" |
+|}
+
+{| class="wikitable"
+|-
+! 50% Blue !! 0% Red !! 25% Red !! 50% Red !! 75% Red !!  100% Red
+|-
+| 0% Green ||style="background-color:#008;"|  ||style="background-color:#408;"|  ||style="background-color:#808;"|  ||style="background-color:#b08;"|  ||style="background-color:#f08;" |
+|-
+| 25% Green ||style="background-color:#048;"|  ||style="background-color:#448;"|  ||style="background-color:#848;"|  ||style="background-color:#b48;"|  ||style="background-color:#f48;" |
+|-
+| 50% Green ||style="background-color:#088;"|  ||style="background-color:#488;"|  ||style="background-color:#888;"|  ||style="background-color:#b88;"|  ||style="background-color:#f88;" |
+|-
+| 75% Green ||style="background-color:#0b8;"|  ||style="background-color:#4b8;"|  ||style="background-color:#8b8;"|  ||style="background-color:#bb8;"|  ||style="background-color:#fb8;" |
+|-
+| 100% Green ||style="background-color:#0f8;"|  ||style="background-color:#4f8;"|  ||style="background-color:#8f8;"|  ||style="background-color:#bf8;"|  ||style="background-color:#ff8;" |
+|}
+
+{| class="wikitable"
+|-
+! 75% Blue !! 0% Red !! 25% Red !! 50% Red !! 75% Red !!  100% Red
+|-
+| 0% Green ||style="background-color:#00b;"|  ||style="background-color:#40b;"|  ||style="background-color:#80b;"|  ||style="background-color:#b0b;"|  ||style="background-color:#f0b;" |
+|-
+| 25% Green ||style="background-color:#04b;"|  ||style="background-color:#44b;"|  ||style="background-color:#84b;"|  ||style="background-color:#b4b;"|  ||style="background-color:#f4b;" |
+|-
+| 50% Green ||style="background-color:#08b;"|  ||style="background-color:#48b;"|  ||style="background-color:#88b;"|  ||style="background-color:#b8b;"|  ||style="background-color:#f8b;" |
+|-
+| 75% Green ||style="background-color:#0bb;"|  ||style="background-color:#4bb;"|  ||style="background-color:#8bb;"|  ||style="background-color:#bbb;"|  ||style="background-color:#fbb;" |
+|-
+| 100% Green ||style="background-color:#0fb;"|  ||style="background-color:#4fb;"|  ||style="background-color:#8fb;"|  ||style="background-color:#bfb;"|  ||style="background-color:#ffb;" |
+|}
+
+{| class="wikitable"
+|-
+! 100% Blue !! 0% Red !! 25% Red !! 50% Red !! 75% Red !!  100% Red
+|-
+| 0% Green ||style="background-color:#00f;"|  ||style="background-color:#40f;"|  ||style="background-color:#80f;"|  ||style="background-color:#b0f;"|  ||style="background-color:#f0f;" |
+|-
+| 25% Green ||style="background-color:#04f;"|  ||style="background-color:#44f;"|  ||style="background-color:#84f;"|  ||style="background-color:#b4f;"|  ||style="background-color:#f4f;" |
+|-
+| 50% Green ||style="background-color:#08f;"|  ||style="background-color:#48f;"|  ||style="background-color:#88f;"|  ||style="background-color:#b8f;"|  ||style="background-color:#f8f;" |
+|-
+| 75% Green ||style="background-color:#0bf;"|  ||style="background-color:#4bf;"|  ||style="background-color:#8bf;"|  ||style="background-color:#bbf;"|  ||style="background-color:#fbf;" |
+|-
+| 100% Green ||style="background-color:#0ff;"|  ||style="background-color:#4ff;"|  ||style="background-color:#8ff;"|  ||style="background-color:#bff;"|  ||style="background-color:#fff;" |
+|}
+
+This way of ordering colors is probably familiar to you if you have used programs for making internet applications like Flash. In fact, if we had made 6 samples instead of 5 per channel(per, red, green and blue), we'd have gotten the [https://websafecolors.info/color-chart 216 websafe colors].
+
+It’s a bit odd, but you can actually stack these tables until the blue is lined up. It’ll become a cube then!
+
+[[File:Rgbcolorcube 2.png|center]]
+
+This cube is not filled with water, or sand, but just colors. And colors are pretty abstract. And we typically talk about cubes and other 3d objects that are filled with abstract objects as spaces, so hence we call this RGB cube a ''color space''.
+
+That the cube used red, green and blue as it’s axes, means that we can say that the model we have our cube in is the RGB [[Special:MyLanguage/Color_Models|''color model'']].
+
+There’s many more color models, for example, we can let the cube stand on the corner where the color black is. The most opposite corner that points to above would then be white. And as geometry and maths would have it, if we cut the cube in half, the line from the white point to the black point would be the gray scale.
+
+[[File:Rgbcolorcube HSI.png|center]]
+
+We can then say that from the middle of the cube to it’s ends, we can talk about the saturation of a color.
+
+The circumference of the colors around it’s middle axis of gray would then define the hue.
+
+This would be the base logic that [[Special:MyLanguage/Color_Models|HSV, HSL, HSI, and HSY]] are based on. This particular model is HSI, because of the way it maps a color to the intensity it would have based on bright the red, green and blue lights have to shine for a color.
+
+There are other color models, like [[Special:MyLanguage/Color_Models|LAB]], where we look at the corresponding gray value of a color first, and then try to describe it’s hue and saturation not it terms of hue and saturation, but in terms of how red, green, blue and yellow a color is, because our brains cannot comprehend a color that is both green and red, or yellow and blue, making them into good sliding scales. We call this a perceptual model.
+
+Color models describe color spaces, which in turn are all sorts of sizes as well. Krita allows you to do operations in different models and spaces, and we call this functionality ‘''Color Management''’.
+
+Color management is necessary for [[Special:MyLanguage/Color_Models|CMYK]] support, but outside of that, not many drawing programs offer the feature, as developers believe that artists have no need for such functionality. Which is a pity, because it allows for far more cool tricks than just CMYK support, and the ability to manipulate colors like a computer can is perhaps digital painting’s most unique quality.
+
+This means that there’s little to no articles on how to use color management for artists painting from scratch. So we made this category, and hope to fill it up with little articles explaining color related concepts in a visual manner.
+
+We recommend going over the [[Special:MyLanguage/Color_Managed_Workflow|color managed workflow page]] next, even if you will not use any of it, it’ll make some sense out of the many features related to it. Other than that, each article should stand on it’s own.
+
+[[category:General Concepts]]

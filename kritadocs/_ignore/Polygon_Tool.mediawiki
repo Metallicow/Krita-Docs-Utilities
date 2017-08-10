@@ -1,0 +1,9 @@
+{{ToolIcon|polygon}}
+
+With this tool you can draw polygons. Click the {{MouseButton|left}} to indicate the starting point and successive vertices, then double-click or press &lt;kbd>Enter&lt;/kbd> to connect the last vertex to the starting point.
+
+&lt;kbd>shift&lt;/kbd>+{{MouseButton|left}} undoes the last clicked point.
+
+==Tool Options==
+
+[[Category:Toolbox]]

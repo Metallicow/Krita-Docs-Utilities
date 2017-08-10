@@ -1,0 +1,58 @@
+
+
+;New
+:Make a new file.
+;Open
+:Open a previous File.
+;Open Recent
+:Open the recently opened document.
+;Save
+:File formats that Krita can save to. These formats can later be opened back up in Krita.
+;Save As
+:Save as a new file.
+;Open Existing Document As New document
+;Export
+:Additional formats that can be saved. Some of these formats may not be later imported or opened by Krita
+;Export as PDF
+:PDF export. Doesn't support multiple pages.
+;[[Import Animation Frames]](3.0+)
+:Import frames for animation.
+;[[Export Animation]](3.0+)
+:Export an animation.
+;Save incremental version
+:Save as a new version of the same file with a number attached.
+;Save incremental Backup
+:Make a backup file without leaving the working file.
+;Create Template from image
+:The [[*.kra]] file will be saved into the template folder for future use. All you layers and guides will be saved along!
+;Create Copy From Current Image
+:Makes a new document from the current image, so you can easily reiterate on a single image. Useful for areas where the template system is too powerful.
+;[[Metadata|Document Information]]
+:Look at the document information. Contains all sorts of interesting information about image, such as technical information or metadata.
+;Close
+:Close the view or document.
+;Close All
+:Close all views and documents.
+;Quit
+:Close Krita
+
+==List of Formats that Krita can Save to==
+*Krita document ([[*.kra]])
+*OpenRaster Archiving image ([[*.ora]])
+*[[*.ppm|PPM]] image
+*[[*.pgm|PGM]] image
+*[[*.pbm|PBM]] image
+*[[*.png|PNG]] image
+*[[*.jpg|JPEG image]]
+*Windows [[*.bmp|BMP]] image
+*[[*.xpm|XPM]] image
+*[[*.xbm|XBM]] image
+*[[*.tiff|TIFF]] image
+*[[*.exr|EXR]] image
+*[[*.psd|PSD]]
+*[[*.ico|ICO]]
+*[[*.tga|TGA]]
+*[[*.r8|R8 heightmap]]
+*[[*.r16|R16 heightmap]]
+
+[[Category:Main Menu]]

@@ -1,0 +1,44 @@
+;How do I make a brush like the one in Sinix's paint-like-a-sculptor video?
+
+It's actually quite easy, but most easy to do with Krita 3.0 due a few bugfixes.
+
+First, select ''Basic_Wet'' from the default presets, and go into the brush editor with &lt;kbd>f5&lt;/kbd>.
+
+[[File:Painter-sculpt-brush-01.png|center]]
+
+Then, the trick is to go into {{MenuChoice|opacity}}, untoggle {{MenuChoice|Pressure}} from the sensors, toggle {{MenuChoice|Fade}} and then reverse the curve as shown above. Make sure that the curve ends a little above the bottom-right, so that you are aways painting something. Otherwise, the smudge won't work.
+
+This'll make the color rate decrease and turn it into a smudge brush as the stroke continues:
+
+[[File:Painter-sculpt-brush-02.png|center]]
+
+The {{MenuChoice|Fade}} sensor will base the stroke length on brush size. The {{MenuChoice|Distance}} sensor will base it on actual pixels, and the {{MenuChoice|Time}} on actual seconds.
+
+Then, select {{MenuChoice|Brushtip &amp;rarr; Predfined}} and select the default ''A_Angular_Church_HR'' brushtip.
+
+[[File:Painter-sculpt-brush-03.png|center]]
+
+This makes for a nice textured square brush.
+
+Of course, this'll make the stroke distance longer to get to smudging, so we go back to the {{MenuChoice|Opacity}}.
+
+[[File:Painter-sculpt-brush-04.png|center]]
+
+Just adjust the fade-length by {{MouseButton|right}} on the slider bar. You can then input a number. In the screenshot, I have 500, but the sweet spot seems to be somewhere betwen 150 and 200.
+
+Now, you'll notice that on the start of a stroke, it might be a little faded, so go into {{MenuChoice|Color Rate}} and turn off the {{MenuChoice|Enable Pen Settings}} there.
+
+[[File:Painter-sculpt-brush-05.png|center]]
+
+Then, finally, we'll make the brush rotate.
+
+[[File:Painter-sculpt-brush-06.png|center]]
+
+Tick the {{MenuChoice|Rotation}} parameter, and select it. There, untick {{MenuChoice|Pressure}} and tick {{MenuChoice|Drawing Angle}}.
+
+Then, for better angling, tick {{MenuChoice|Lock}} and set the {{MenuChoice|Angle Offset}} to 90 degrees by {{MouseButton|right}} the slider bar and typing in 90.
+
+Now, give your brush a new name, doodle on the brush-square, {{MenuChoice|Save to presets}} and paint!
+[[File:Painter-sculpt-brush-07.png|center]]
+
+[[Category:Krita-Brush-tips|S]]

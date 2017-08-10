@@ -1,0 +1,47 @@
+.. raw:: mediawiki
+
+   {{ToolIcon|contiguous-select}}
+
+This tool, represented by a magic wand, allows you to make a selection
+by selecting a point of color. It will select any contiguous areas of a
+similar color to the one you selected. You can adjust the “fuzziness” of
+the tool in the tool options dock. A lower number will select colors
+closer to the color that you chose in the first place.
+
+Hotkeys and Sticky keys
+-----------------------
+
+-  <kbd>R</kbd> sets the selection to 'replace' in the tool options,
+   this is the default mode.
+-  <kbd>A</kbd> sets the selection to 'add' in the tool options.
+-  <kbd>S</kbd> sets the selection to 'subtract' in the tool options.
+-  <kbd>Shift</kbd> + sets the subsequent selection to 'add'. You can
+   release the <kbd>Shift</kbd> key while dragging, but it will still be
+   set to 'add'. Same for the others.
+-  <kbd>Alt</kbd> + sets the subsequent selection to 'subtract'.
+-  <kbd>Ctrl</kbd> + sets the subsequent selection to 'replace'.
+-  <kbd>Shift</kbd> + <kbd>Alt</kbd> + sets the subsequent selection to
+   'intersect'.
+
+.. raw:: mediawiki
+
+   {{Note|You can switch the behaviour of the Alt key to use Ctrl instead by toggling the switch in the [[Special:MyLanguage/General_Settings#Tool_options|general settings]]}}
+
+Tool Options
+------------
+
+Anti-aliasing
+    This toggles whether or not to give selections feathered edges. Some
+    people preffer hard-jagged adges for their selections.
+Fuzziness
+    This controls whether or not the contiguous selection sees another
+    color as a border.
+Grow/Shrink selection.
+    This value extends/contracts the shape beyond it's initial size.
+Feathering
+    This value will add a soft border to the selection-shape.
+Limit to Current Layer
+    Activating this will prevent the fill tool from taking other layers
+    into account.
+
+Category:Toolbox

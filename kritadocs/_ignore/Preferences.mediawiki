@@ -1,0 +1,7 @@
+Krita is highly customizable and makes many settings and options available to customize through the Preferences area. These settings are accessed by going to &lt;span class="menuchoice">Settings > Configure Krita&lt;/span>.
+
+Krita's preferences are saved in the file ''kritarc''. This file is located in &lt;tt>C:\Users\*username*\AppData\Local\krita&lt;/tt> on Windows, &lt;tt>~/.config/krita&lt;/tt> on Linux, and &lt;tt>~/Library/Preferences/krita&lt;/tt> on OS X. If you would like to back up your custom settings or synchronize them from one computer to another, you can just copy this file. It even works across platforms!
+
+Custom shortcuts are saved in a separate file ''kritashortcutsrc'' which can also be backed up in the same way. This is discussed further in the shortcuts section.
+    
+[[Category:Reference Manual{{#translation:}}]]

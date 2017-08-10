@@ -1,0 +1,126 @@
+This is a continuation of [[Projection:_Orthographic_and_Oblique|the orthographic and oblique tutorial]], be sure to check it out if you get confused!
+
+== Axonometric ==
+
+So, the logic of adding the top is still similar to that of the side.
+
+[[File:Projection-cube 07.svg|center]]
+
+Not very interesting. But it gets much more interesting when we use a side projection:
+
+[[File:Projection-cube 08.svg|center]]
+
+Because our cube is red on both front-sides, and blue on both left and right side, we can just use copies, this simplifies the method for cubes a lot. We call this form of axonometric projection 'dimetric' as it deforms two parallel lines equally.
+
+Isometric is sorta like dimetric where we have the same angle between all main lines:
+
+[[File:Projection-cube 09.svg|center]]
+
+True isometric is done with a 90-54.736=35.264° angle from ground plane:
+
+[[File:Projection-cube 10.svg|center]]
+(as you can see, it doesn't line up perfectly, because Inkscape, while more designed for making these kind of diagrams than Krita, doesn't have tools to manipulate the line's angle in degrees)
+
+This is a bit of an awkward angle, and on top of that, it doesn't line up with pixels sensibly, so for videogames a an angle of 30° from the ground plane is used.
+
+[[File:Projection-cube 11.svg|center]]
+
+Alright, so, let's make an isometric out of our boy then.
+
+We make a new document, and add a vector layer.
+
+On the vector layer, we select the straight line tool, start a line and then hold 'shift' to make it snap to angles. This'll allow us to make a 30° setup like above:
+
+[[File:Projection image 15.png]]
+
+We then import some of the frames from the animation via &lt;span class="menuchoice">layers &amp;rarr; import/export &amp;rarr; import layer&lt;/span>.
+
+Then crop it by setting the crop tool to 'layer', and use &lt;span class="menuchoice">filters &amp;rarr; colors &amp;rarr; color to alpha&lt;/span> to remove any background. I also set the layers to 50% opacity. We then align the vectors to them:
+
+[[File:Projection image 16.png|center]]
+
+(Tip, to resize a vector but keep it's angle, you just select it with the shape handling tool(the white arrow) drag on the corners of the bounding box to start moving them, and then press &lt;kbd>shift&lt;/kbd> to constrain the ratio. This'll allow you to keep the angle)
+
+The lower image is 'the back seen from the front', we'll be using this to determine where the ear should go.
+
+Now, we obviously have too little space, so select the crop tool, select 'image' and tick 'grow' and do the following:
+
+[[File:Projection image 17.png|center]]
+
+Grow is a more practical way of resizing the canvas in width and height immediately.
+
+Then we align the other heads and transform them by using the transform tool options:
+
+[[File:Projection image 18.png|center]]
+(330° here is 360°-30°)
+
+Our rectangle we'll be working in slowly becomes visible. Now, this is a bit of a difficult angle to work at, so we go to &lt;span class="menuchoice">image &amp;rarr; rotate &amp;rarr; custom rotation&lt;/span> and fill in 30° clockwise:
+
+[[File:Projection image 19.png|center]]
+[[File:Projection image 20.png|center]]
+
+(of course, we could've just rotated the left two images 30°, this is mostly to be less confusing compared to the cube)
+
+So, we do some cropping, some cleanup and add two parallel assistants like we did with the orthographic:
+
+[[File:Projection image 21.png|center]]
+
+So the idea here is that you draw parallel lines from both sides to find points in the drawing area. You can use the previews of the assistants for this to keep things clean, but I drew the lines anyway for your convenience.
+
+[[File:Projection image 22.png|center]]
+
+The best is to make a few sampling points, like with the eyebrows here, and then draw the eyebrow over it.
+
+[[File:Projection image 23.png|center]]
+
+=== Alternative axonometric with the transform tool ===
+
+Now, there's an alternative way of getting there that doesn't require as much space.
+
+We open our orthographic with 'open existing document as untitled document' so that we don't save over it.
+
+Our game-safe isometric has its angle at two pixels horizontal is one pixel vertical. So, we shear the ortho graphics with transform masks to -.5/+.5 pixels(this is proportional)
+
+[[File:Projection image 24.png|center]]
+
+Use the grid to setup two parallel rulers that represent both diagonals(you can snap them with the &lt;kbd>Shift&lt;/kbd>+&lt;kbd>S&lt;/kbd>):
+
+[[File:Projection image 25.png|center]]
+
+Add the top view as well:
+
+[[File:Projection image 26.png|center]]
+
+if you do this for all slices, you get something like this:
+
+[[File:Projection image 27.png|center]]
+
+Using the parallel rulers, you can then figure out the position of a point in 3d-ish space:
+
+[[File:Projection image 28.png|center]]
+
+As you can see, this version both looks more 3d as well as more creepy.
+
+That's because there's less steps involved as the previous version -- We're deriving our image directly from the orthographic view -- so there's less errors involved.
+
+The creepiness is because we've had the tiniest bit of stylisation in our sideview, so the eyes come out HUGE. This is because when we stylise the side view of an eye, we tend to draw it not perfectly from the side, but rather slightly at an angle. If you look carefully at the turntable, the same problem crops up there as well.
+
+Generally, stylised stuff tends to fall apart in 3d view, and you might need to make some choices on how to make it work.
+
+For example, we can just easily fix the side view(because we used transform masks, this is easy.)
+
+[[File:Projection image 29.png|center]]
+
+And then generate a new drawing from that…
+
+[[File:Projection animation 02.gif|center]]
+
+Compare to the old one and you should be able to see that the new result’s eyes are much less creepy:
+
+[[File:Projection image 30.png|center]]
+
+It still feels very squashed compared to the regular parallel projection above, and it might be an idea to not just skew but also stretch the orthos a bit.
+
+Let's continue with perspective projection in the next one!
+
+[[Category:Projection|2]]

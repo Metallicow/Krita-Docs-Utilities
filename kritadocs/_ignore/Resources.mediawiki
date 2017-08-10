@@ -1,0 +1,86 @@
+&lt;h3>Brush Sets&lt;/h3>
+
+&lt;div class="col-md-4">
+[[File:resources-deevadBrushes.jpg |link=https://github.com/Deevad/deevad-krita-brushpresets]]
+&lt;div style="text-align: center; margin-top: -1.5em;">David Revoy&lt;/div>
+&lt;/div>
+
+&lt;div class="col-md-4">
+[[File:resources-mirandaBrushes.jpg|link=http://www.ramonmiranda.com/2013/09/krita-training-vol-2-muses-dvd-preset.html]]
+&lt;div style="text-align: center; margin-top: -1.5em;">Ramon Miranda&lt;/div>
+&lt;/div>
+
+&lt;div class="col-md-4">
+[[File:resources-conceptBrushes.jpg|link=https://forum.kde.org/viewtopic.php?f=274&amp;t=127423]]
+&lt;div style="text-align: center; margin-top: -1.5em;">Concept Art &amp; Illustration Pack&lt;/div>
+&lt;/div>
+
+&lt;div class="col-md-4" >
+[[File:resources-aldyBrushes.jpg|link=http://al-dy.deviantart.com/art/Aldys-Brush-Pack-for-Krita-196128561]]
+&lt;div style="text-align: center; margin-top: -1.5em;">Al-dy&lt;/div>
+&lt;/div>
+
+&lt;div class="col-md-4">
+[[File:resources-vascoBrushes.jpg|link=https://vascobasque.com/modular-brushset/]]
+&lt;div style="text-align: center; margin-top: -1.5em;">Vasco Basqué&lt;/div>
+&lt;/div>
+
+
+&lt;div class="col-md-4">
+[[File:resources-meemodrawsBrushes.jpg|link=http://meemodraws.deviantart.com/art/Krita-Brush-Pack-311306611]]
+&lt;div style="text-align: center; margin-top: -1.5em;">Meemodraws&lt;/div>
+&lt;/div>
+
+&lt;div class="col-md-4" >
+[[File:resources-cazuBrushes.jpg|link=http://www.pcazorla.com/2014/01/15/cazu-brush-collection-v2-for-krita/]]
+&lt;div style="text-align: center; margin-top: -1.5em;">Cazu Brush Collection&lt;/div>
+&lt;/div>
+
+&lt;div class="col-md-4">
+[[File:resources-stalcryBrushes.jpg|link=http://stalcry.deviantart.com/art/Krita-Custom-Brushes-350338351]]
+&lt;div style="text-align: center; margin-top: -1.5em;">Stalcry&lt;/div>
+&lt;/div>
+
+
+&lt;div class="col-md-4">
+[[File:resources-woltheraBrushes.jpg|link=https://forum.kde.org/viewtopic.php?f=274&amp;t=125125]]
+&lt;div style="text-align: center; margin-top: -1.5em;">Wolthera&lt;/div>
+&lt;/div>
+
+&lt;div class="col-md-4">
+[[File:Icon-nylnook-brush-pack-v2-wiki.jpg|link=http://nylnook.com/en/blog/krita-brushes-pack-v2/]]
+&lt;div style="text-align: center; margin-top: -1.5em;">Nylnook&lt;/div>
+&lt;/div>
+
+&lt;div class="col-md-4">
+[[File:resources-hushcoilBrushes.png |link=http://hushcoil.tumblr.com/kritabrushes/]]
+&lt;div style="text-align: center; margin-top: -1.5em;">Hushcoil&lt;/div>
+&lt;/div>
+
+&lt;div class="col-md-4">
+[[File:Brush-preview-03.png |link=https://github.com/raghukamath/krita-brush-presets]]
+&lt;div style="text-align: center; margin-top: -1.5em;">Raghukamath&lt;/div>
+&lt;/div>
+
+&lt;div class="col-md-4" style="clear:both">
+[[File:Gdquest-brushes-krita.jpeg |link=https://gumroad.com/l/krita-brushes-gdquest-lite]]
+&lt;div style="text-align: center; margin-top: -1.5em;">GDquest&lt;/div>
+&lt;/div>
+
+&lt;h3 style="clear:both">General Texture Packs&lt;/h3>
+
+&lt;div class="col-md-4">
+[[File:resources-deevadTextures.jpg|link=http://www.davidrevoy.com/article156/texture-pack-1]]
+&lt;div style="text-align: center; margin-top: -1.5em;">David Revoy&lt;/div>
+&lt;/div>
+
+&lt;div class="col-md-4">
+[[File:resources-deevadTextures2.jpg|link=http://www.davidrevoy.com/article263/five-traditional-textures]]
+&lt;div style="text-align: center; margin-top: -1.5em;">David Revoy&lt;/div>
+&lt;/div>
+
+
+&lt;h3 style="clear:both">Commercial Support&lt;/h3>
+If you need on-site training, bridges to other programs, or special packages for CentOS and Ubuntu, visit our commercial support page for more information. https://krita.org/support-us/commercial
+
+[[Category:Documentation]]

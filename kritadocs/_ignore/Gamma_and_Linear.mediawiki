@@ -1,0 +1,320 @@
+Now, the situation we talk about when talking theory is what we would call 'linear'. Each step of brightness is the same value.
+Our eyes do not perceive linearly. Rather, we find it more easy to distinguish between darker greys than we do between lighter greys.
+
+As humans are the ones using computers, we have made it so that computers will give more room to darker values in the coordinate system of the image. We call this 'gamma-encoding', because it is applying a gamma function to the TRC or transfer function of an image. The TRC in this case being the Tone Response Curve or Tone Reproduction Curve or Transfer function(because color management specialists hate themselves), which tells your computer or printer how much color corresponds to a certain value.
+
+[[File:Pepper tonecurves.png|thumb|center|800px|One of the most common issues people have with Krita's color management is the assigning of the right colorspace to the encoded TRC. Above, the center Pepper is the right one, where the encoded and assigned TRC are the same. To the left we have a Pepper encoded in sRGB, but assigned a linear profile, and to the right we have a Pepper encoded with a linear TRC and assigned a sRGB TRC. Image from [http://www.peppercarrot.com/ Pepper &amp; Carrot] ]]
+
+The following table shows how there's a lot of space being used by lighter values in a linear space compared to the default sRGB trc of our modern computers and other TRCs available in our delivered profiles:
+
+{| style="text-align:right;" cellpadding="10"
+| Linear TRC
+| style="background-color:#000000;"|
+| style="background-color:#494949;"| 
+| style="background-color:#666666;"| 
+| style="background-color:#7c7c7c;"| 
+| style="background-color:#8d8d8d;"| 
+| style="background-color:#9c9c9c;"| 
+| style="background-color:#aaaaaa;"| 
+| style="background-color:#b6b6b6;"| 
+| style="background-color:#c1c1c1;"| 
+| style="background-color:#cbcbcb;"| 
+| style="background-color:#d5d5d5;"| 
+| style="background-color:#dedede;"| 
+| style="background-color:#e7e7e7;"| 
+| style="background-color:#efefef;"| 
+| style="background-color:#f7f7f7;"| 
+| style="background-color:#ffffff;"|  
+|-
+| sRGB TRC
+| style="background-color:#000000;"|
+| style="background-color:#111111;"| 
+| style="background-color:#222222;"| 
+| style="background-color:#333333;"| 
+| style="background-color:#444444;"| 
+| style="background-color:#555555;"| 
+| style="background-color:#666666;"| 
+| style="background-color:#777777;"| 
+| style="background-color:#888888;"| 
+| style="background-color:#999999;"| 
+| style="background-color:#aaaaaa;"| 
+| style="background-color:#bbbbbb;"| 
+| style="background-color:#cccccc;"| 
+| style="background-color:#dddddd;"| 
+| style="background-color:#eeeeee;"| 
+| style="background-color:#ffffff;"|  
+|-
+| Lab L* TRC
+| style="background-color:#000000;"| 
+| style="background-color:#151515;"| 
+| style="background-color:#222222;"| 
+| style="background-color:#303030;"| 
+| style="background-color:#3f3f3f;"| 
+| style="background-color:#4e4e4e;"| 
+| style="background-color:#5e5e5e;"| 
+| style="background-color:#6f6f6f;"| 
+| style="background-color:#7f7f7f;"| 
+| style="background-color:#919191;"| 
+| style="background-color:#a2a2a2;"| 
+| style="background-color:#b4b4b4;"| 
+| style="background-color:#c6c6c6;"| 
+| style="background-color:#d9d9d9;"| 
+| style="background-color:#ececec;"| 
+| style="background-color:#ffffff;"|  
+|-
+| Rec 709 TRC
+| style="background-color:#000000;"| 
+| style="background-color:#212121;"| 
+| style="background-color:#323232;"| 
+| style="background-color:#434343;"| 
+| style="background-color:#535353;"| 
+| style="background-color:#636363;"| 
+| style="background-color:#737373;"| 
+| style="background-color:#838383;"| 
+| style="background-color:#939393;"| 
+| style="background-color:#a3a3a3;"| 
+| style="background-color:#b2b2b2;"| 
+| style="background-color:#c2c2c2;"| 
+| style="background-color:#d1d1d1;"| 
+| style="background-color:#e1e1e1;"| 
+| style="background-color:#f0f0f0;"| 
+| style="background-color:#ffffff;"|  
+|-
+| Gamma 1.8 TRC
+| style="background-color:#000000;"| 
+| style="background-color:#151515;"| 
+| style="background-color:#2d2d2d;"| 
+| style="background-color:#424242;"| 
+| style="background-color:#565656;"| 
+| style="background-color:#686868;"| 
+| style="background-color:#797979;"| 
+| style="background-color:#8a8a8a;"| 
+| style="background-color:#9a9a9a;"| 
+| style="background-color:#a9a9a9;"| 
+| style="background-color:#b8b8b8;"| 
+| style="background-color:#c7c7c7;"| 
+| style="background-color:#d6d6d6;"| 
+| style="background-color:#e4e4e4;"| 
+| style="background-color:#f1f1f1;"| 
+| style="background-color:#ffffff;"|  
+|-
+| Gamma 2.2 TRC
+| style="background-color:#000000;"| 
+| style="background-color:#090909;"| 
+| style="background-color:#1c1c1c;"| 
+| style="background-color:#303030;"| 
+| style="background-color:#424242;"| 
+| style="background-color:#565656;"| 
+| style="background-color:#666666;"| 
+| style="background-color:#787878;"| 
+| style="background-color:#898989;"| 
+| style="background-color:#9a9a9a;"| 
+| style="background-color:#acacac;"| 
+| style="background-color:#bcbcbc;"| 
+| style="background-color:#cdcdcd;"| 
+| style="background-color:#dedede;"| 
+| style="background-color:#efefef;"| 
+| style="background-color:#ffffff;"|  
+|}
+
+If you look at linear of rec 709 TRCs, you can see there's quite a jump between the darker shades and the lighter shades, while if we look at the Lab L* TRC or the sRGB TRC, which seem more evenly spaced.
+This is due to our eyes' sensitivity to darker values. This also means that if you do not have enough bit depth, an image in a linear space will look as if it has ugly banding. Hence why, when we make images for viewing on a screen, we always use something like the LAB L*, sRGB or Gamma 2.2 TRCs to encode the image with.
+
+However, this modification to give more space to darker values does lead to wonky color maths when mixing the colors.
+
+We can see this with the following experiment:
+
+[[File:Krita 2 9 colormanagement blending 1.png|500px|thumb|center|'''Left:''' Colored circles blurred in a regular sRGB space. '''Right:''' Colored circles blurred in a linear space.]]
+
+Colored circles, half blurred. In a gamma-corrected environment, this gives an odd black border. In a linear environment, this gives us a nice gradation.
+
+This also counts for Krita's colour smudge brush:
+
+[[File:Krita 2 9 colormanagement blending 2.png ||Thumb||500px|center||That's right, the 'muddying' of colours as is a common complaint by digital painters everywhere, is in fact, a gamma-corrected colourspace mucking up your colours. If you had been working in LAB to avoid this, be sure to try out a linear rgb colour space.]]
+
+===What is happening under the hood===
+Imagine we want to mix red and green.
+
+First, we would need the color coordinates of red and green inside our colour space's color model. So, that'd be...
+
+{| class="wikitable" |-
+!Color || Red || Green || Blue 
+|-
+|style="text-align:right;"| Red||style="color:#f00;"| 1.0||0.0||0.0
+|-
+|style="text-align:right;"| Green||0.0||style="color:#0f0;"|1.0||0.0
+|}
+
+We then avarage these coordinates over three mixes:
+
+{| class="wikitable" |-
+!  || Red || Mix1||Mix2||Mix3|| Green 
+|-
+|style="text-align:right;"| Red||style="color:#f00;"| 1.0||style="color:#b00;"|0.75||style="color:#800;"|0.5||style="color:#400;"|0.25||0.0
+|-
+|style="text-align:right;"| Green||0.0||style="color:#040;"|0.25||style="color:#080;"|0.5||style="color:#0b0;"|0.75||style="color:#0f0;"|1.0
+|-
+|style="text-align:right;"| Blue||0.0||0.0||0.0||0.0||0.0
+|}
+
+But to figure out how these colours look on screen, we first put the indvidual values through the TRC of the color-space we're working with:
+
+[[File:Basicreading3trcsv2.svg  |thumb|800px|center]]
+
+Then we fill in the values into the correct spot. Compare these to the values of the mixture table above!
+
+&lt;!-- [[File:Basic mix table2.svg ]] -->
+
+{| style="font-family:mono;" cellpadding="5"
+!  
+! colspan="3" | Linear TRC
+! colspan="3" | sRGB TRC
+! colspan="3" | Lab L* TRC
+! colspan="3" | Rec 709 TRC
+! colspan="3" | Gamma = 1.8 TRC
+! colspan="3" | Gamma = 2.2 TRC
+|- style="text-align:center;"
+| 
+|R
+|G
+|B
+|R
+|G
+|B
+|R
+|G
+|B
+|R
+|G
+|B
+|R
+|G
+|B
+|R
+|G
+|B
+|- 
+|style="text-align:right;"|Red
+| style="background-color:#ff0000;"|1.0
+| style="background-color:#ff0000;"|0.0
+| style="background-color:#ff0000;"|0.0
+| style="background-color:#ff0000;"|1.0
+| style="background-color:#ff0000;"|0.0
+| style="background-color:#ff0000;"|0.0
+| style="background-color:#ff0000;"|1.0
+| style="background-color:#ff0000;"|0.0
+| style="background-color:#ff0000;"|0.0
+| style="background-color:#ff0000;"|1.0
+| style="background-color:#ff0000;"|0.0
+| style="background-color:#ff0000;"|0.0
+| style="background-color:#ff0000;"|1.0
+| style="background-color:#ff0000;"|0.0
+| style="background-color:#ff0000;"|0.0
+| style="background-color:#ff0000;"|1.0
+| style="background-color:#ff0000;"|0.0
+| style="background-color:#ff0000;"|0.0
+|-
+|style="text-align:right;"|Mix1
+| style="background-color:#E18900;"|0.75
+| style="background-color:#E18900;"|0.25
+| style="background-color:#E18900;"|0.0
+| style="background-color:#BF3F00;"|0.52
+| style="background-color:#BF3F00;"|0.05
+| style="background-color:#BF3F00;"|0.0
+| style="background-color:#B93A00;"|0.48
+| style="background-color:#B93A00;"|0.04
+| style="background-color:#B93A00;"|0.0
+| style="background-color:#C64F00;"|0.56
+| style="background-color:#C64F00;"|0.08
+| style="background-color:#C64F00;"|0.0
+| style="background-color:#CB5100;"|0.60
+| style="background-color:#CB5100;"|0.08
+| style="background-color:#CB5100;"|0.0
+| style="background-color:#C13C00;"|0.53
+| style="background-color:#C13C00;"|0.05
+| style="background-color:#C13C00;"|0.0
+|-
+| style="text-align:right;"|Mix2
+| style="background-color:#BCBC00;"| 0.5
+| style="background-color:#BCBC00;"|0.5
+| style="background-color:#BCBC00;"|0.0
+| style="background-color:#7F7F00;"|0.21
+| style="background-color:#7F7F00;"|0.21
+| style="background-color:#7F7F00;"|0.0
+| style="background-color:#777700;"|0.18
+| style="background-color:#777700;"|0.18
+| style="background-color:#777700;"|0.0
+| style="background-color:#8b8b00;"|0.27
+| style="background-color:#8b8b00;"|0.27
+| style="background-color:#8b8b00;"|0.0
+| style="background-color:#929200;"|0.29
+| style="background-color:#929200;"|0.29
+| style="background-color:#929200;"|0.0
+| style="background-color:#818100;"|0.22
+| style="background-color:#818100;"|0.22
+| style="background-color:#818100;"|0.0
+|-
+| style="text-align:right;"|Mix3
+| style="background-color:#89E100;"|0.25
+| style="background-color:#89E100;"|0.75
+| style="background-color:#89E100;"|0.0
+| style="background-color:#3FBF00;"|0.05
+| style="background-color:#3FBF00;"|0.52
+| style="background-color:#3FBF00;"|0.0
+| style="background-color:#3AB900;"|0.04
+| style="background-color:#3AB900;"|0.48
+| style="background-color:#3AB900;"|0.0
+| style="background-color:#4FC600;"|0.08
+| style="background-color:#4FC600;"|0.56
+| style="background-color:#4FC600;"|0.0
+| style="background-color:#51CB00;"|0.08
+| style="background-color:#51CB00;"|0.60
+| style="background-color:#51CB00;"|0.0
+| style="background-color:#3CC100;"|0.05
+| style="background-color:#3CC100;"|0.53
+| style="background-color:#3CC100;"|0.0
+|- 
+| style="text-align:right;"| Green
+| style="background-color:#00ff00;"| 0.0
+| style="background-color:#00ff00;"|1.0
+| style="background-color:#00ff00;"|0.0
+| style="background-color:#00ff00;"|0.0
+| style="background-color:#00ff00;"|1.0
+| style="background-color:#00ff00;"|0.0
+| style="background-color:#00ff00;"|0.0
+| style="background-color:#00ff00;"|1.0
+| style="background-color:#00ff00;"|0.0
+| style="background-color:#00ff00;"|0.0
+| style="background-color:#00ff00;"|1.0
+| style="background-color:#00ff00;"|0.0
+| style="background-color:#00ff00;"|0.0
+| style="background-color:#00ff00;"|1.0
+| style="background-color:#00ff00;"|0.0
+| style="background-color:#00ff00;"|0.0
+| style="background-color:#00ff00;"|1.0
+| style="background-color:#00ff00;"|0.0
+|}
+
+
+
+And this is why colour mixtures are lighter and softer in linear space. Linear space is more physically correct, but sRGB is more efficient in terms of space, so hence why many images have an sRGB TRC encoded into them.
+In case this still doesn't make sense: ''sRGB gives largely '''darker''' values than linear space for the same coordinates.''
+
+So different TRCs give different mixes between colors, in the following example, every set of gradients is in order a mix using linear trc, a mix using srgb trc and a mix using lab L* trc.
+
+[[File:3trcsresult.png |thumb|800px|center]]
+
+So, you might be asking, how do I tick this option? Is it in the settings somewhere? The answer is that we have several icc profiles that can be used for this kind of work:
+
+* scRGB (linear)
+* All 'elle'-profiles ending in 'g10', such as ''sRGB-elle-v2-g10.icc''.
+
+In fact, in all the 'elle'-profiles, the last number indicates the gamma. 1.0 is linear, higher is gamma-corrected and 'srgbtrc' is a special gamma correction for the original sRGB profile.
+
+If you use the color space browser, you can tell the TRC from the 'estimated gamma'(if it's 1.0, it's linear), or from the TRC widget in Krita 3.0, which looks exactly like the curve graphs above.
+
+Even if you do not paint much, but are for example making textures for a videogame or rendering, using a linear space is very beneficial and will speed up the renderer a little, for it won't have to convert images on it's own.
+
+The downside of linear space is of course that white seems very overpowered when mixing with black, because in a linear space, light greys get more room. In the end, while linear space is physically correct, and a boon to work in when you are dealing with physically correct renderers for videogames and raytracing, Krita is a tool and no-one will hunt you down for preferring the dark mixing of the sRGB trc.
+
+[[Category:Color]]

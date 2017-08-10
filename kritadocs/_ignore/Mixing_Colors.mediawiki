@@ -1,0 +1,60 @@
+Just like real life, there's many ways to mix colors. You have glossing, scumbling, hatching, optical illusions. We can mimic most of these in a digital medium as well, and each has a different effect.
+
+== Glossing ==
+
+[[File:Color gloss.gif|center]]
+
+Glossing is the most important of all the mixing techniques.
+
+Traditionally, it's overlaying many different semi-transparent layers over one another to create visual mixtures. In digital painting, we can also use it to mix colors on-canvas. We first lay down a semi-transparent layer. Then, we pick the resultant color with &lt;kbd>ctrl&lt;/kbd>+{{MouseButton|left}}(This can be configured in the canvas input settings), and paint with that. Each layer we lay down, and each color we pick is an avarage of the colors before it, leading to a nice mixture.
+
+We can even more easily paint mix with glossing when we set the flow low. [[Special:MyLanguage/Opacity_%26_Flow|Flow]] is transparency per dab instead of stroke, and it gives softer strokes without giving up control.
+
+Similarly, you can use blending modes like multiply to create nice shadows.
+
+[[File:Color_gloss_example_1.png|center]]
+
+We start with a plain base.
+
+[[File:Color_gloss_example_2.png|center|500px|thumb]]
+
+Then we set a semi-transparent brush to multiply and add two plain colored layers over everything.
+
+[[File:Color_gloss_example_3.png|center|500px|thumb]]
+
+Then use a brush with low flow (0.30) to pick the resulting colors and lay down layers. This'll give quite a painterly effect.
+
+[[File:Color_gloss_example_4.png|center]]
+
+Continue with a lower opacity and flow to create smoother gradients.
+
+== Mixing and Smudging ==
+
+[[File:Color mix.gif|center]]
+
+Mixing is done with the color smudge brush. The [[Special:MyLanguage/Color_Smudge|color smudge brush]] is a special brush engine that allows you to mix the color you painting with, with the color under the brush. It's a very powerful brush that gives a lovely painterly effect, but it's a bit slower than the regular pixel brush.
+
+If you remove all paint from a color smudge brush, you get a smudge effect:
+
+[[File:Color smudge.gif|center]]
+
+Different smudge brushes have different effects, so be sure to try them all out.
+
+
+== Scumbling ==
+
+Scumbling is when we, instead of having a semi-opaque layer, we use layers of paint that are patterned.
+[[File:Color scumble2.gif|center]]
+Most painting programs allow you to pick a [[Special:MyLanguage/Brush_Tips|brush tip]], which can be used to create a textured effect like that of scumbling.
+
+[[File:Color scumble.gif|center]]
+
+Krita's brush engines also allows you to use the [[Special:MyLanguage/Texture|texture option]]. This allows you to create screentone like effects.
+
+While glossing can get you pretty far, scumbling is the best method to create texture and to break up big pasty flats in your drawing.
+
+== Other tips ==
+
+Mixing colors will often go far better in a [[Special:MyLanguage/Bit_Depth|higher bit-depth like 16bit]], though it'll make the image take up much more working memory(RAM). Furthermore, a [[Special:MyLanguage/Gamma_and_Linear|linear color space]] can often give far better mixtures than a gamma-corrected one, though doing sketches and lineart is easier to do in a gamma-corrected space.
+
+[[Category:Color]]

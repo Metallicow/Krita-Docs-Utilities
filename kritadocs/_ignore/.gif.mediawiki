@@ -1,0 +1,5 @@
+.gif is a fileformat mostly known for the fact that it can save animations. It's a fairly old format, and it does it's compression by [[Special:MyLanguage/Bit Depth|indexing]] the colors to a maximum of 256 colors per frame.
+
+This means that it can handle most grayscale images just fine and without losing any visible quality. But for color images that don't animate it might be better to use [[*.jpg]] or [[*.png]].
+
+[[category:File Formats|G]]

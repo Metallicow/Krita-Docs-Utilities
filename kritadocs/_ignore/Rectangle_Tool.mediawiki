@@ -1,0 +1,34 @@
+{{ToolIcon|rectangle}}
+
+This tool can be used to paint rectangles, or create rectangle shapes on a vector layer. Click and hold the left mouse button to indicate one corner of the rectangle, drag to the opposite corner, and release the button.
+
+==Hotkeys and Sticky-keys==
+There's no default hotkey for switching to rectangle.
+
+If you hold &lt;kbd>Shift&lt;/kbd> while drawing, a square will be drawn instead of a rectangle. Holding &lt;kbd>Ctrl&lt;/kbd> will change the way the rectangle is constructed. Normally, the first mouse click indicates one corner and the second click the opposite. With &lt;kbd>Ctrl&lt;/kbd>, the initial mouse position indicates the center of the rectangle, and the final mouse position indicates a corner. You can press &lt;kbd>Alt&lt;/kbd> while still keeping the left mouse button down to move the rectangle to a different location.
+
+You can change between the corner/corner and center/corner drawing methods as often
+as you want by pressing or releasing &lt;kbd>Ctrl&lt;/kbd>, provided that you keep the left mouse button pressed. With &lt;kbd>Ctrl&lt;/kbd> pressed, mouse movements will affect all four corners of the rectangle (relative to the center), without &lt;kbd>Ctrl&lt;/kbd>, one of the corners is unaffected.
+
+==Tool Options==
+[[File:Krita Tools Rectangle Tool Options.PNG]] 
+===Fill===
+;Not filled.
+:The rectangle will be transparent from the inside.
+;Foreground color
+:The rectangle will use the foreground color as fill.
+;Background color.
+:The rectangle will use the background color as fill.
+;Pattern
+:The rectangle will use the active pattern as fill.
+
+===Outline===
+;No Outline
+:The Rectangle will render without outline.
+;Brush
+:The Rectangle will use the current selected brush to outline.
+
+{{Info|On vector layers, the rectangle will not render with a brush outline, but rather a vector outline.}}
+
+
+[[Category:Toolbox]]

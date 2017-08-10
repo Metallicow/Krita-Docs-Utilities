@@ -1,0 +1,32 @@
+;Undo
+:Undoes the last action. &lt;kbd>Ctrl + Z&lt;/kbd>
+;Redo
+:Redoes the last undone action. &lt;kbd>Ctrl + shift+ Z&lt;/kbd>
+;Cut
+:Cuts the selection or layer. &lt;kbd>Ctrl + X&lt;/kbd>
+;Copy
+:Copies the selection or layer. &lt;kbd>Ctrl + C&lt;/kbd>
+;Cut(Sharp)
+:This prevents semi-transparent areas from appearing on your cut pixels, making them either fully opaque or fully transparent.
+;Copy(Sharp)
+:Same as {{MenuChoice|Edit &amp;rarr; Cut(sharp)}} but then copying instead.
+;Copy Merged
+:Copies the selection over all layers. &lt;kbd>Ctrl + Shift + C&lt;/kbd>
+;Paste
+:Pastes the copied buffer into the image as a new layer. &lt;kbd>Ctrl + V&lt;/kbd>
+;Paste into new image
+:Pastes the copied buffer into a new image. 
+;Clear
+:Clear the current layer. &lt;kbd>Del&lt;/kbd>
+;Fill with Foreground Colour
+:Fills the layer or selection with the foreground color.&lt;kbd>shift + Backspace&lt;/kbd>
+;Fill with Background Colour
+:Fills the layer or selection with the background color. &lt;kbd>Backspace&lt;/kbd>
+;Fill with pattern
+:Fills the layer or selection with the active pattern.
+;Stroke Selected Shapes
+:Strokes the selected vector shape with the selected brush, will create a new layer.
+;[[Special:MyLanguage/Stroke Selection|Stroke Selection]]
+:Strokes the active selection using the menu.
+
+[[Category:Main Menu]]

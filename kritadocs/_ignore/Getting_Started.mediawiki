@@ -1,0 +1,11 @@
+&lt;!-- trying to fix the translation issue, bear with me -->
+
+Welcome to the Krita Manual! In this section, we'll try to get you up to speed.
+
+If you are familiar with digital painting, we recommend checking out the [[Special:MyLanguage/Category:Introduction_coming_from_other_software|introduction coming from other software]] category, which contains guides that get you up to speed with Krita by comparing its functions to other software.
+
+If you are new to digital art, just start with [[Special:MyLanguage/Installation|Installation]], which deals with installing Krita, and continue on to [[Special:MyLanguage/Starting Krita|Starting Krita]], which helps with making a new document and saving it, [[Special:MyLanguage/Basic Concepts|Basic Concepts]], in which we'll try to quickly cover the big categories of Krita's functionality, and finally, [[Special:MyLanguage/Navigation|Navigation]], which helps you find basic usage help, such as panning, zooming and rotating.
+
+When you have mastered those, you can look into the dedicated introduction pages for functionality in the [[Special:MyLanguage/Category:User Manual|User Manual]], read through the over arching concepts behind (digital) painting in the [[Special:MyLanguage/Category:General Concepts|General Concepts]] section, or just search the [[Special:MyLanguage/Category:Reference Manual|Reference Manual]] for what a specific button does.
+
+[[Category:User Manual{{#translation:}}]]

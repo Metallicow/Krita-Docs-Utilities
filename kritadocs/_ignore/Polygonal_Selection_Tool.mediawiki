@@ -1,0 +1,23 @@
+{{ToolIcon|polygon-select}}
+
+This tool, represented by a polygon with a dashed border, allows you to make a selection of a polygonal area point by point. Click where you want each point of the Polygon to be. Double click to end your polygon and finalize your selection area.
+
+==Hotkeys and Stickykeys==
+*&lt;kbd>R&lt;/kbd> sets the selection to 'replace' in the tool options, this is the default mode.
+*&lt;kbd>A&lt;/kbd> sets the selection to 'add' in the tool options.
+*&lt;kbd>S&lt;/kbd> sets the selection to 'subtract' in the tool options.
+*&lt;kbd>Shift + Z&lt;/kbd> removes the last added point.
+*&lt;kbd>Shift + {{MouseButton|left}}&lt;/kbd> sets the subsequent selection to 'add'. You can release the &lt;kbd>Shift&lt;/kbd> key while dragging, but it will still be set to 'add'. Same for the others.
+*&lt;kbd>Alt + {{MouseButton|left}}&lt;/kbd> sets the subsequent selection to  'subtract'.
+*&lt;kbd>Ctrl + {{MouseButton|left}}&lt;/kbd> sets the subsequent selection to  'replace'.
+*&lt;kbd>Shift + Alt + {{MouseButton|left}}&lt;/kbd> sets the subsequent selection to  'intersect'.
+
+{{Note|You can switch the behaviour of the Alt key to use Ctrl instead by toggling the switch in the [[Special:MyLanguage/General_Settings#Tool_options|general settings]]}}
+
+==Tool Options==
+[[File:Polygonal Selection Tool Options.PNG ]]
+
+;Anti-aliasing
+:This toggles whether or not to give selections feathered edges. Some people preffer hard-jagged adges for their selections.
+
+[[Category:Toolbox]]

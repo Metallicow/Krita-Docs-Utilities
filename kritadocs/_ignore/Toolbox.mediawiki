@@ -1,0 +1,3 @@
+The toolbox docker is the docker in which all of Krita's main tools reside. It is completely resizable, and {{MouseButton|right}} this docker will allow you to resize the icons. Since Krita 2.9.10 it's also available from the &lt;span class="menuchoice"> settings &amp;rarr; dockers&lt;/span> menu.
+
+[[Category:Reference Manual]]

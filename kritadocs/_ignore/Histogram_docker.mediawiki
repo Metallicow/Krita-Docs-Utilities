@@ -1,0 +1,11 @@
+A Histogram is a chart that shows how much of a specific channel value is used in an image. It's purpose is to give a really technical representation of the colors in an image, which can be helpful in decision making about filters.
+
+[[File:Histogram docker.png|center]]
+
+The histogram docker was already available via {{MenuChoice|layers &amp;rarr; histogram}}, but it's now a proper docker.
+
+External Links:
+
+* [https://en.wikipedia.org/wiki/Image_histogram Wikipedia's entry on image histograms]
+
+[[Category:Dockers{{#translation:}}]]

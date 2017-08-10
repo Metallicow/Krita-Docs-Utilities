@@ -1,0 +1,23 @@
+{{ToolIcon|path-select}}
+
+This tool, represented by a ellipse with a dashed border and a curve control, allows you to make a selection of an area by drawing a path around it. Click where you want each point of the path to be. Click and drag to curve the line between points. Finally click on the first point you created to close your path.
+
+==Hotkeys and Sticky keys==
+*&lt;kbd>R&lt;/kbd> sets the selection to 'replace' in the tool options, this is the default mode.
+*&lt;kbd>A&lt;/kbd> sets the selection to 'add' in the tool options.
+*&lt;kbd>S&lt;/kbd> sets the selection to 'subtract' in the tool options.
+*&lt;kbd>Shift&lt;/kbd> + {{MouseButton|left}} sets the subsequent selection to 'add'. You can release the &lt;kbd>Shift&lt;/kbd> key while dragging, but it will still be set to 'add'. Same for the others.
+*&lt;kbd>Alt&lt;/kbd> + {{MouseButton|left}} sets the subsequent selection to  'subtract'.
+*&lt;kbd>Ctrl&lt;/kbd> + {{MouseButton|left}} sets the subsequent selection to  'replace'.
+*&lt;kbd>Shift&lt;/kbd> + &lt;kbd>Alt&lt;/kbd> + {{MouseButton|left}} sets the subsequent selection to  'intersect'.
+
+{{Warning|Selection modifiers don't quite work yet with the path tool, as shift breaks the path}}
+{{Note|You can switch the behaviour of the Alt key to use Ctrl instead by toggling the switch in the [[Special:MyLanguage/General_Settings#Tool_options|general settings]]}}
+
+==Tool Options==
+[[File:Bezier Curve Selection Tool Options.PNG ]]
+
+;Anti-aliasing
+:This toggles whether or not to give selections feathered edges. Some people preffer hard-jagged adges for their selections.
+
+[[Category:Toolbox]]

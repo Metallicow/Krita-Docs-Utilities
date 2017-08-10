@@ -1,0 +1,34 @@
+{{ToolIcon|ellipse-select}}
+
+This tool, represented by a ellipse with a dashed border, allows you to make a selection of a elliptical area. Simply click and drag around the section you wish to select.
+
+==Hotkeys and Stickykeys==
+*&lt;kbd>J&lt;/kbd> selects this tool.
+*&lt;kbd>R&lt;/kbd> sets the selection to 'replace' in the tool options, this is the default mode.
+*&lt;kbd>A&lt;/kbd> sets the selection to 'add' in the tool options.
+*&lt;kbd>S&lt;/kbd> sets the selection to 'subtract' in the tool options.
+*&lt;kbd>Shift&lt;/kbd> after starting the selection, constraints it to a perfect square.
+*&lt;kbd>Ctrl&lt;/kbd> after starting the selection, makes the selection resize from center.
+*&lt;kbd>Alt&lt;/kbd> after starting the selection, allows you to move it.
+*&lt;kbd>Shift&lt;/kbd> + {{MouseButton|left}} sets the subsequent selection to 'add'. You can release the &lt;kbd>Shift&lt;/kbd> key while dragging, but it will still be set to 'add'. Same for the others.
+*&lt;kbd>Alt&lt;/kbd> + {{MouseButton|left}} sets the subsequent selection to  'subtract'.
+*&lt;kbd>Ctrl&lt;/kbd> + {{MouseButton|left}} sets the subsequent selection to  'replace'.
+*&lt;kbd>Shift&lt;/kbd> + &lt;kbd>Alt&lt;/kbd> + {{MouseButton|left}}  sets the subsequent selection to  'intersect'.
+
+{{ Note|So to subtract a perfect square, you do &lt;kbd>Alt + Left-Mouse-Click&lt;/kbd>, then release the &lt;kbd>Alt&lt;/kbd> key while dragging and press &lt;kbd>Shift&lt;/kbd> to constrain.}}
+
+{{Note|You can switch the behaviour of the Alt key to use Ctrl instead by toggling the switch in the [[Special:MyLanguage/General_Settings#Tool_options|general settings]]}}
+
+==Tool Options==
+[[File:Elliptical Selection Tool Options.PNG]]
+
+;Anti-aliasing
+:This toggles whether or not to give selections feathered edges. Some people preffer hard-jagged adges for their selections.
+;Width
+:Gives the current width. Use the lock to force the next selection made to this width.
+;Height
+:Gives the current height. Use the lock to force the next selection made to this height.
+;Ratio
+:Gives the current ratio. Use the lock to force the next selection made to this ratio.
+
+[[Category:Toolbox]]

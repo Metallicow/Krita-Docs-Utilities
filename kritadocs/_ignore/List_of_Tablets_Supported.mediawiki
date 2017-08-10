@@ -1,0 +1,478 @@
+{| class="wikitable"
+!Brand
+!Model
+!Supported	
+|-
+| Adesso ||	CyberTablet T12	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Adesso ||	CyberTablet Z12	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Adesso ||	CyberTablet T10	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Adesso ||	CyberTablet T22HD	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Adesso ||	CyberTablet M14	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Adesso ||	CyberTablet W10	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Adesso ||	CyberTablet Z8	|| class="approvedTabletGreen" | Supposed to work	
+|-
+| Aiptek ||	HyperPen Mini	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Aiptek ||	MediaTablet 10000u	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Aiptek ||	MediaTablet 14000u	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Aiptek ||	MediaTablet Ultimate II	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Aiptek ||	MyNote Bluetooth	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Aiptek ||	MyNote Pen	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Aiptek ||	SlimTablet 600u Premium II	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Artisul || (by UC-Logic)	D13	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Artisul || (by UC-Logic)	D10	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Artisul || (by UC-Logic)	Pencil (S/M)	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Bosto || 22HDX || class="unapprovedTabletRed"| Reported to be broken
+|-
+| Bosto || 22UX || class="unapprovedTabletRed"| Reported to be broken
+|-
+| Bosto || 22HD Mini || class="unapprovedTabletRed"| Reported to be broken
+|-
+| Bosto || 22U Mini || class="needsTestingTabletYellow"| Unknown
+|-
+| Bosto || 14WX || class="needsTestingTabletYellow"| Unknown
+|-
+| Bosto || 13HD || class="needsTestingTabletYellow"| Unknown
+|-
+| CalComp ||	DrawingBoard VI	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| CalComp ||	Creation Station	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| CalComp ||	SummaSketch	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Dynalink ||	FreeDraw 4x5	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Elmo ||	CRA-1 wireless tablet	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Gaomon ||	S56K	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Gaomon ||	GM185	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Gaomon ||	M10K	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen 340	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen F610E	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen i405	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen i405X	|| class="needsTestingTabletYellow" | Reported to be working on Linux only for 2.9.x versions
+|-
+| Genius ||	EasyPen i405XE	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen M406	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen M406W	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen M406WE	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen M406XE	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen M506	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen M506A	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen M508W	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen M610	|| class="unapprovedTabletRed" | Reported to be broken
+|-
+| Genius ||	EasyPen M610X	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	EasyPen M610XA	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	G-Pen 340	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	G-Pen 450	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	G-Pen 560	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	G-Pen F350	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	G-Pen F509	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	G-Pen F610	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	G-Pen M609	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	G-Pen M609X	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	G-Pen M712	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	G-Pen M712X	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	MousePen 8x6	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	MousePen i608	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	MousePen i608X	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	MousePen i608XE	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	MousePen M508	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	MousePen M508W	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	MousePen M508X	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	MousePen M508XA	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	PenSketch 9x12	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	PenSketch M912	|| class="unapprovedTabletRed" | Reported to be broken
+|-
+| Genius ||	PenSketch T609A	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Genius ||	WizardPen 5x4	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Hanvon ||	ESP2210	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Hanvon ||	HW-S05	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Hanvon ||	Sell T&amp;Mouse	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Hanvon ||	Sell Writing Tablet (SuperPen 0403)	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Hanvon ||	Sell Writing Tablet (SuperPen 0503)	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Hanvon ||	Sell Painting Master (0504)	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Hanvon ||	Sell Painting Master (0605)	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Hanvon ||	Sell Painting Master (0806)	|| class="unapprovedTabletRed" | Reported to be broken
+|-
+| Huion / Turcom ||	H420	|| class="approvedTabletGreen"| Supposed to work	
+|-
+| Huion / Turcom ||	W58	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	680TF	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	G10T	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	H610PRO	|| class="approvedTabletGreen"| Supported
+|-
+| Huion / Turcom ||	H690	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	WH1409	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	1060Plus	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	New 1060Plus	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	K26	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	K58	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	W58	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	680S	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	P608N	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	H58L	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	DWH96	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	GT156HD (KAMVAS)	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	GT-185	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	GT-190	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	GT-220	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	PC185HD	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Huion / Turcom ||	PC2150	|| class="approvedTabletGreen"| Supposed to work
+|-
+| KB Gear ||	JamStudio	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| KB Gear ||	Pablo Internet Edition	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| KB Gear ||	Sketchboard Studio	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Microsoft	|| Surface Pro ||	class="approvedTabletGreen"| Supported
+|-
+| Monoprice ||	8x6"	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Monoprice ||	MP1060-HA60 (10x6.25")	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Monoprice ||	10x6.25" (110594)	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Monoprice ||	8x6" MP Select Professional	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Monoprice ||	"8x6"" MP Select Professional with Quick Select Wheel"	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Monoprice ||	12x9" (106815)	|| class="needsTestingTabletYellow" | Reported to work with some issues
+|-
+| Monoprice ||	MP 22-inch (114481)	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Parblo ||	A610	|| class="unapprovedTabletRed" | Reported to be broken	
+|-
+| Parblo ||	Bay B960	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Parblo ||	GT19	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Parblo ||	GT22HD	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Parblo ||	Coast22	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Parblo ||	Coast10	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Parblo ||	Island A609	|| class="needsTestingTabletYellow" | Reported to work, but tablet is low-quality and not recommended.
+|-
+| PenPower ||	TOOYA Master	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| PenPower ||	TOOYA X	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| PenPower ||	Monet	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| PenPower ||	Picasso	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Perixx ||	Peritab-502EVO	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Perixx ||	Peritab 502	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Perixx ||	Peritab 302	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Trust ||	Flex Design	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Trust ||	Slimline Widescreen	|| class="unapprovedTabletRed" | Reported to be broken
+|-
+| Trust ||	Slimline Sketch	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Trust ||	Slimline Mini	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Trust ||	TB2100	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Trust ||	TB3100	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Turcom / Huion ||	Interactive Pen Display	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Turcom / Huion ||	TS-6608	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Turcom / Huion ||	TS-6580B Pro	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Turcom / Huion ||	TS-6580W Pro	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Turcom / Huion ||	TS-6610H Professional Wide	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Turcom / Huion ||	TS-690	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Turcom / Huion ||	TS-680	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Turcom / Huion ||	TS-6540	|| class="approvedTabletGreen"| Supposed to work
+|-
+| UC-Logic / Digipro ||	DigiPro WP4030	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| UC-Logic / Digipro ||	WP806U	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Ugee ||	HK1060pro	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Ugee ||	HK1560	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Ugee ||	UG-1910B	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Ugee ||	UG-2150	|| class="needsTestingTabletYellow" | Reported to be broken.On windows only
+|-
+| Ugee ||	EX05	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Ugee ||	EX07	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Ugee ||	G3	|| class="needsTestingTabletYellow" | Reported to work on windows 7	
+|-
+| Ugee ||	G5	|| class="needsTestingTabletYellow" | Working with Windows with official drivers installed.No drivers are currently available under Linux.	
+|-
+| Ugee ||	M504	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Ugee ||	M708	|| class="unapprovedTabletRed" | Reported to be broken, connected strokes
+|-
+| Ugee ||	M6370	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Ugee ||	M1000L	|| class="unapprovedTabletRed" | Reported to be broken
+|-
+| Ugee ||	Chocolate	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Ugee ||	CV720	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Ugee ||	Rainbow 3	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| VisTablet ||	Mini	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| VisTablet ||	Mini Plus	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| VisTablet ||	VT Original	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| VisTablet ||	Realm Pro	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| VisTablet ||	Realm Graphic	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| VisTablet ||	VT 12" Touch	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Wacom ||	Intuos Draw	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Intuos Art	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Intuos Photo	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Intuos Comic	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Intuos 3D	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Intuos Pro (S/M/L)	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Intuos Pro Paper	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq Pro 13	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq Pro 16	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq 13HD	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq 22HD	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq 22HD Touch	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq 27 QHD	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq 27 QHD Touch	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq Companion	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq Companion 2	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq Companion Hybrid	|| class="approvedTabletGreen"| Supported
+|-
+| Wacom ||	MobileStudio Pro 13	|| class="approvedTabletGreen"| Supported
+|-
+| Wacom ||	MobileStudio Pro 16	|| class="approvedTabletGreen"| Supported
+|-
+| Wacom ||	Intuos 5	|| class="approvedTabletGreen"| Supported
+|-
+| Wacom ||	Intuos 4	|| class="approvedTabletGreen"| Reported to work
+|-
+| Wacom ||	Intuos 3	|| class="approvedTabletGreen"| Supported
+|-
+| Wacom ||	Intuos 2 (XD)	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq 12WX	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq 24HD	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Bamboo Create	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Bamboo Capture	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Bamboo Connect	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Bamboo Splash	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Bamboo CTL	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Bamboo CTH	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Bamboo CTE	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Bamboo One	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq20 (DTZ)	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Cintiq21	|| class="approvedTabletGreen"| Reported to work
+|-
+| Wacom ||	Intuos (GD)	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Graphire2	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Wacom ||	Graphire (ET)	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Waltop ||	Venus M	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Waltop ||	Media	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Waltop ||	Q-Pad	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| XP Pen ||	Artist 22	|| class="unapprovedTabletRed" | Reported to be broken
+|-
+| XP Pen ||	Artist 22E	|| class="unapprovedTabletRed" | Reported to be broken
+|-
+| XP Pen ||	Artist Display 10S	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| XP Pen ||	Star 05 Wireless	|| class="approvedTabletGreen" | Works with the Star 04 driver
+|-
+| XP Pen ||	Star G540 Game Play	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| XP Pen ||	Star G430 Game Play	|| class="approvedTabletGreen"| Supposed to work
+|-
+| XP Pen ||	Star 04 Flash Memory	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| XP Pen ||	Star 03 Express Keys	|| class="unapprovedTabletRed" | Reported to be broken
+|-
+| XP Pen ||	Star 02 Touch Hot Keys	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| XP Pen ||	Star 01 Pen Tablet	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Yiynova ||	SP 1001 (UC-Logic)	|| class="needsTestingTabletYellow" | Unknown	
+|-
+| Yiynova ||	MVP10U	|| class="approvedTabletGreen"| Supported
+|-
+| Yiynova ||	MVP10U HD	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	MVP10U HD+IPS	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	DP10U+	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	DP10U	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	DP10	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	DP10S	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	DP10HD	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	MSP15	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	MSP19	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	MSP19U	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	MSP19U+	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	MSP19U+ (V5)	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	MVP22U+IPS (V3)	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	MVP20U+RH	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	MVP22U+DT	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	MVP22U+RH	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	MJP19	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	MKP19	|| class="approvedTabletGreen"| Supposed to work
+|-
+| Yiynova ||	YA20HD	|| class="approvedTabletGreen"| Supposed to work
+|-
+|}
+
+Pages you might want to check :
+
+     [http://huion.deviantart.com/journal/Problem-with-Krita-Come-On-In-439442607 Huion's krita support topic on deviant art]
+
+     [https://digimend.github.io/tablets/ List of tablets models and branding]

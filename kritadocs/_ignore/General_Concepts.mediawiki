@@ -1,0 +1,9 @@
+General concepts is the area of the user manual where we explain general concepts related to Krita.
+
+These can be examples such as [[Special:MyLanguage/Color|colors]], [[Special:MyLanguage/Layer_Compositing|layer compositing]], [[Special:MyLanguage/Selections|selections]], [[Special:MyLanguage/Vector_and_Raster|Vector and Raster]] and more.
+
+The reason being that we have found that it's very difficult to expect people to know these, and for us it's especially tricky to write pages without having a basis to refer to.
+
+This category is slightly different from [[Special:MyLanguage/Category:Tutorials|tutorials]], as it's more focused on theory than on practicality and step-by-step guides.
+
+[[Category:Documentation|4]]

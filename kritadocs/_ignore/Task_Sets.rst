@@ -1,0 +1,19 @@
+Task sets are for sharing a set of steps, like a tutorial. You make them
+with the task-set docker.
+
+.. figure:: Task-set.png
+   :alt: Task-set.png
+
+   Task-set.png
+
+Task sets can record any kind of command also available via the shortcut
+manager. It can not record strokes, like the macro recorder can.
+However, you can play macros with the tasksets!
+
+The tasksets docker has a record button, and you can use this to record
+a certain workflow. Then use this to let items appear in the taskset
+list. After wards, turn off record. You can then click any action in the
+list to make them happen. Press the 'Save' icon to name and save the
+taskset.
+
+`Category:Dockers{{#translation:}} <Category:Dockers{{#translation:}}>`__

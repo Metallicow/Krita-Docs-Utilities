@@ -1,0 +1,4 @@
+These filters are natively incorporated in Krita apart from applying these filters to layers, users can add these as [[Filter_Layers|Filter layers]] or [[Filter_Masks|Filter masks]] in the layer stacks.
+Listed below are some of the native filters in krita.
+
+[[Category: Filters]]
