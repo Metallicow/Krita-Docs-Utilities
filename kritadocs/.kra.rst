@@ -10,4 +10,3 @@ at the insides.
 It is a format that you can expect to get very heavy, and isn't meant
 for sharing on the internet.
 
-`K <category:_File_Formats>`__

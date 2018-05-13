@@ -8,4 +8,3 @@ However, most programs don't compress bitmap files, leading to BMP
 having a reputation for being very heavy. If you need a lossless file
 format, we actually recommend :doc:`.png`.
 
-`B <category:File_Formats>`__

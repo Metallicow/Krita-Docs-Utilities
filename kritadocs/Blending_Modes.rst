@@ -1,0 +1,566 @@
+.. include:: substitutions.inc
+.. .. !!!NOTE!!! using nbsp(non-breaking space) in headers to avoid duplicates.
+
+
+Blending Modes
+==============
+
+Blending modes are a little difficult to explain. Basically, when one
+layer is above the other, the computer uses a bit of programming to
+decide how the combination of both layers will look.
+
+Blending modes can not just apply to Layers, but also to individual
+strokes.
+
+Favorites
+---------
+
+These are the blending modes that have been ticked as favorites,
+defaulting these are:
+
+-  `Addition`_
+-  `Burn`_
+-  `Color, HSV, HSI, HSL, HSY`_
+-  `Color Dodge`_
+-  `Darken`_
+-  `Erase`_
+-  `Lighten`_
+-  `Luminosity`_
+-  `Multiply`_
+-  `Normal`_
+-  `Overlay`_
+-  `Saturation HSI, HSV, HSL, HSY`_
+
+Hotkeys associated with Blending modes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Defaultly the following hotkeys are associated with blending modes. You
+first need to use modifiers :kbd:`Alt` + :kbd:`Shift`, then use
+the following hotkey to have the associated blending mode:
+
+-  :kbd:`A` `Linear Burn`_
+-  :kbd:`B` `Burn`_
+-  :kbd:`C` `Color, HSV, HSI, HSL, HSY`_
+-  :kbd:`D` `Color Dodge`_
+-  :kbd:`E` `Difference`_
+-  :kbd:`F` `Soft Light(Photoshop) & Soft Light SVG`_
+-  :kbd:`I` `Dissolve`_
+-  :kbd:`J` `Linear Light`_
+-  :kbd:`K` `Darken`_
+-  :kbd:`L` `Hard Mix`_
+-  :kbd:`M` `Multiply`_
+-  :kbd:`O` `Overlay`_
+-  :kbd:`Q` `Behind`_
+-  :kbd:`R` `Normal`_
+-  :kbd:`S` `Screen`_
+-  :kbd:`T` `Saturation HSI, HSV, HSL, HSY`_
+-  :kbd:`U` `Hue HSV, HSI, HSL, HSY`_
+-  :kbd:`V` `Vivid Light`_
+-  :kbd:`W` `Exclusion`_
+-  :kbd:`X` `Linear Dodge`_
+-  :kbd:`Y` `Luminosity`_
+-  :kbd:`Z` `Pin Light`_
+-  Next Blending Mode :kbd:`+`
+-  Previous Blending Mode :kbd:`-`
+
+Arithmetic
+----------
+
+These blending modes are based on simple maths.
+
+Addition
+~~~~~~~~
+
+Adds the numerical values of two colours together:
+
+Yellow(1,1,0)+Blue(0,0,1)=White(1,1,1)
+
+Red(1,0,0)+Grey(0.5,0.5,0.5)=Pink(1,0.5,0.5)
+
+Divide
+~~~~~~
+
+Divides the numerical value from the lower color by the upper color.
+
+Inverse Subtract
+~~~~~~~~~~~~~~~~
+
+This inverts the lower layer before subtracting it from the upper layer.
+
+Multiply
+~~~~~~~~
+
+Multiplies the two colors with each other, but does not go beyond the
+upper limit.
+
+This is often used to color in a black and white lineart. One puts the
+black and white lineart on top, and sets the layer to 'Multiply', and
+then draw in color on a layer beneath. Multiply will all the colour to
+go through.
+
+White(1,1,1)xWhite(1,1,1)=White(1,1,1)
+White(1,1,1)xGrey(0.5,0.5,0.5)=Grey(0.5,0.5,0.5)
+Grey(0.5,0.5,0.5)xGrey(0.5,0.5,0.5)=Dark grey(0.25,0.25,0.25)
+
+Subtract
+~~~~~~~~
+
+Subtracts the top layer from the bottom layer.
+
+EX:
+
+White(1,1,1)-White(1,1,1)=Black(0,0,0)
+
+White(1,1,1)-Grey(0.5,0.5,0.5)=Grey(0.5,0.5,0.5)
+
+Grey(0.5,0.5,0.5)-Grey(0.5,0.5,0.5)=Black(0,0,0)
+
+Darken
+------
+
+Burn
+~~~~
+
+A variation on Divide, sometimes called 'Color Burn' in some programs.
+
+This inverts the bottom layer, then divides it by the top layer, and
+inverts the result. This results in a darkened effect that takes the
+colors of the lower layer into account, similar to the burn technique
+used in traditional darkroom photography.
+
+Darken |nbsp|
+~~~~~~~~~~~~~
+
+With the darken, the upper layer's colors are checked for their
+lightness. Only if they are darker than the underlying color on the
+lower layer, will they be visible.
+
+Gamma Dark
+~~~~~~~~~~
+
+Divides 1 by the lower layer, and calculates the end result using that
+as the power of the upper layer.
+
+Linear Burn
+~~~~~~~~~~~
+
+Similar to Addition.
+
+Adds the values of the two layers together and then inverts them.
+
+HSX
+---
+
+Krita has four different HSX coordinate systems. The difference between
+them is how they handle tone.
+
+HSI
+~~~
+
+HSI is a color coordinate system, using Hue, Saturation and Intensity to
+catagorise a color. Hue is roughly the wavelength, whether the colour is
+red, yellow, green, cyan, blue or purple. It is measure in 360°, with 0
+being red. Saturation is the measurement of how close a color is to
+grey. Intensity, in this case is the tone of the color. What makes
+intensity special is that it recognises Yellow(rgb:1,1,0) having a
+higher combined rgb value than blue(rgb:0,0,1). This is a non-linear
+tone dimension, which means it's gamma-corrected.
+
+HSL
+~~~
+
+HSL is also a color coordinate system. It describes colors in Hue,
+Saturation and Lightness. Lightness specifically puts both
+yellow(rgb:1,1,0), blue(rgb:0,0,1) and middle grey(rgb:0.5,0.5,0.5) at
+the same lightness(0.5).
+
+HSV
+~~~
+
+HSV, occasionally called HSB, is a color coordinate system. It measures
+colors in Hue, Saturation, and Value(also called Brightness). Value or
+Brightness specifically reffers to strength at which the pixel-lights on
+your monitor have to shine. It sets Yellow(rgb:1,1,0), Blue(rgb:0,0,1)
+and White(rgb:1,1,0) at the same Value(100%)
+
+HSY
+~~~
+
+HSY is a color coordinate system. It catagorises colors in Hue,
+Saturation and Luminosity. Well, not really, it uses Luma instead of
+true luminosity, the difference being that Luminosity is linear while
+Luma is gamma-corrected and just weights the rgb components. Luma is
+based on scientific studies of how much light a color reflects in
+real-life. While like intensity it acknowledges that Yellow(rgb:1,1,0)
+is lighter than blue(rgb:0,0,1), it also acknowledges that
+Yellow(rgb:1,1,0) is lighter than Cyan(rgb(0,1,1), based on these
+studies.
+
+Color, HSV, HSI, HSL, HSY
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This takes the Luminosity/Value/Intensity/Lightness of the colours on
+the lower layer, and combines them with the Saturation and Hue of the
+upper pixels. We refer to Color HSY as 'Color' in line with other
+applications.
+
+Hue HSV, HSI, HSL, HSY
+^^^^^^^^^^^^^^^^^^^^^^
+
+Takes the saturation and tone of the lower layer and combines them with
+the hue of the upper-layer. Tone in this case being either Value,
+Lightness, Intensity or Luminosity.
+
+Increase Value, Lightness, Intensity or Luminosity.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Similar to lighten, but specific to tone. Checks whether the upper
+layer's pixel has a higher tone than the lower layer's pixel. If so, the
+intensity is increased, if not, the lower layer's tone is maintained.
+
+Increase Saturation HSI, HSV, HSL, HSY
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Similar to lighten, but specific to Saturation. Checks whether the upper
+layer's pixel has a higher Saturation than the lower layer's pixel. If
+so, the Saturation is increased, if not, the lower layer's Saturation is
+maintained.
+
+Intensity
+^^^^^^^^^
+
+Takes the Hue and Saturation of the Lower layer and outputs them with
+the intensity of the upper layer.
+
+Value
+^^^^^
+
+Takes the Hue and Saturation of the Lower layer and outputs them with
+the Value of the upper layer.
+
+Lightness
+^^^^^^^^^
+
+Takes the Hue and Saturation of the Lower layer and outputs them with
+the Lightness of the upper layer.
+
+Luminosity
+^^^^^^^^^^
+
+As explained above, actually Luma, but called this way as it's in line
+with the terminology in other applications. Takes the Hue and Saturation
+of the Lower layer and outputs them with the Luminosity of the upper
+layer. The most preferred one of the four Tone blending modes, as this
+one gives fairly intuitive results for the Tone of a hue
+
+Saturation HSI, HSV, HSL, HSY
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Takes the Intensity and Hue of the lower layer, and outputs them with
+the HSI saturation of the upper layer.
+
+Decrease Value, Lightness, Intensity or Luminosity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Similar to darken, but specific to tone. Checks whether the upper
+layer's pixel has a lower tone than the lower layer's pixel. If so, the
+tone is decreased, if not, the lower layer's tone is maintained.
+
+Decrease Saturation HSI, HSV, HSL, HSY
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Similar to darken, but specific to Saturation. Checks whether the upper
+layer's pixel has a lower Saturation than the lower layer's pixel. If
+so, the Saturation is decreased, if not, the lower layer's Saturation is
+maintained.
+
+Lighten
+-------
+
+Blending modes that lighten the image.
+
+Color Dodge
+~~~~~~~~~~~
+
+Similar to Divide. Inverts the top layer, and divides the lower layer by
+the inverted top layer. This results in a image with emphasized
+highlights, like Dodging would do in traditional darkroom photography.
+
+Gamma Light
+~~~~~~~~~~~
+
+Outputs the upper layer as power of the lower layer.
+
+Hard Light
+~~~~~~~~~~
+
+Similar to Overlay. A combination of the Multiply and Screen blending
+modes, switching between both at a middle-lightness.
+
+Hard light checks if the colour on the upperlayer has a lightness above
+0.5. Unlike overlay, if the pixel is lighter than 0.5,it is blended like
+in Multiply mode, if not the pixel is blended like in Screen mode.
+
+Effectively, this decreases contrast.
+
+Lighten |nbsp|
+~~~~~~~~~~~~~~
+
+With the darken, the upper layer's colors are checked for their
+lightness. Only if they are Lighter than the underlying color on the
+lower layer, will they be visible.
+
+Linear Dodge
+~~~~~~~~~~~~
+
+Exactly the same as `Addition`_.
+
+Put in for compatibility purposes.
+
+Linear Light
+~~~~~~~~~~~~
+
+Similar to `Overlay`_.
+
+Combines `Linear Dodge`_ and `Linear Burn`_.
+When the lightness of the upper-pixel is higher
+than 0.5, it uses Linear dodge, if not, Linear burn to blend the pixels.
+
+Pin Light
+~~~~~~~~~
+
+Checks which is darker the lower layer's pixel or the upper layer's
+double so bright. Then checks which is brighter of that result or the
+inversion of the doubled lower layer.
+
+//this needs an image badly//
+
+Screen
+~~~~~~
+
+Perceptually the opposite of Multiply.
+
+Mathematically, Screen takes both layers, inverts them, then multiplies
+them, and finally inverts them again.
+
+This results in light tones being more opaque and dark tones
+transparent.
+
+Soft Light(Photoshop) & Soft Light SVG
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These are less harsh versions of Hard Light, not resulting in full black
+or full white.
+
+The SVG version is slightly different to the Photoshop version in that
+it uses a slightly different bit of formula when the lightness of the
+lower pixel is lower than 25%, this prevents the strength of the
+brightness increase.
+
+Vivid Light
+~~~~~~~~~~~
+
+Similar to Overlay.
+
+Mixes both Color Dodge and Burn blending modes. If the color of the
+upper layer is darker than 50%, the blending mode will be Burn, if not
+the blending mode will be Color Dodge.
+
+.. Warning::
+
+   This algorithm doesn't use color dodge and burn, we don't know WHAT
+   it does do but for Color Dodge and Burn you need to use Hard Mix
+
+Misc
+----
+
+Bumpmap
+~~~~~~~
+
+This filter seems to both multiply and respect the alpha of the input.
+
+Combine Normal Map
+~~~~~~~~~~~~~~~~~~
+
+Mathematically robust blending mode for normal maps, using
+`Reoriented Normal Map Blending <http://blog.selfshadow.com/publications/blending-in-detail/>`__.
+
+Copy
+~~~~
+
+Copies the previous layer exactly. Useful for when using filters and
+filter-masks.
+
+Copy Red, Green, Blue
+~~~~~~~~~~~~~~~~~~~~~
+
+This is a blending mode that will just copy/blend a source channel to a
+destination channel. Specifically, it will take the specific channel
+from the upper layer and copy that over to the lower layers.
+
+So, if you want the brush to only affect the red channel, set the
+blending mode to 'copy red'.
+
+.. figure:: images/blending_modes/Krita_Filter_layer_invert_greenchannel.png
+   :alt: images/blending_modes/Krita_Filter_layer_invert_greenchannel.png
+   :align: center
+
+   The copy red, green and blue blending modes also work on filter-layers.
+
+This can also be done with filter layers. So if you
+quickly want to flip a layer's green channel, make an invert filter
+layer with 'copy green' above it.
+
+Dissolve
+~~~~~~~~
+
+Instead of using transparency, this blending mode will use a random
+dithering pattern to make the transparent areas look sort of
+transparent.
+
+Mix
+---
+
+Allanon
+~~~~~~~
+
+Blends the upper layer as half-transparent with the lower. (It add the
+two layers together and then halves the value)
+
+Alpha Darken
+~~~~~~~~~~~~
+
+As far as I can tell this seems to premultiply the alpha, as is common
+in some file-formats.
+
+Behind
+~~~~~~
+
+Does the opposite of normal, and tries to have the upper layer rendered
+below the lower layer.
+
+Erase
+~~~~~
+
+This subtracts the opaque pixels of the upper layer from the lower
+layer, effectively erasing.
+
+Geometric Mean
+~~~~~~~~~~~~~~
+
+This blending mode multiplies the top layer with the bottom, and then
+outputs the square root of that.
+
+Grain Extract
+~~~~~~~~~~~~~
+
+Similar to subtract, the colors of the upper layer are subtracted from
+the colors of the lower layer, and then 50% grey is added.
+
+Grain Merge
+~~~~~~~~~~~
+
+Similar to addition, the colors of the upper layer are added to the
+colors, and then 50% grey is subtracted.
+
+Greater
+~~~~~~~
+
+A blending mode which checks whether the painted color is painted with a
+higher opacity than the existing colors. If so, it paints over them, if
+not, it doesn't paint at all.
+
+.. figure:: images/blending_modes/Greaterblendmode.gif
+   :alt: images/blending_modes/Greaterblendmode.gif
+   :align: center
+
+Hard Mix
+~~~~~~~~
+
+Similar to Overlay.
+
+Mixes both Color Dodge and Burn blending modes. If the color of the
+upper layer is darker than 50%, the blending mode will be Burn, if not
+the blending mode will be Color Dodge.
+
+Hard Overlay
+~~~~~~~~~~~~
+
+.. raw:: mediawiki
+
+   {{NewInVersion|4.0}}
+
+Similar to Hard light but hard light use Screen when the value is above
+50%. Divide gives better results than Screen, especially on floating
+point images..
+
+Normal
+~~~~~~
+
+As you may have guessed this is the default Blending mode for all
+layers.
+
+In this mode, the computer checks on the upper layer how transparent a
+pixel is, which colour it is, and then mixes the colour of the upper
+layer with the lower layer proportional to the transparency.
+
+Overlay
+~~~~~~~
+
+A combination of the Multiply and Screen blending modes, switching
+between both at a middle-lightness.
+
+Overlay checks if the colour on the upperlayer has a lightness above
+0.5. If so, the pixel is blended like in Screen mode, if not the pixel
+is blended like in Multiply mode.
+
+This is useful for deepening shadows and highlights.
+
+Parallel
+~~~~~~~~
+
+This one first takes the percentage in two decimal behind the comma for
+both layers. It then adds the two values. Divides 2 by the sum.
+
+Negative
+--------
+
+These are all blending modes which seem to make the image go negative.
+
+Additive Subtractive
+~~~~~~~~~~~~~~~~~~~~
+
+Subtract the square root of the lower layer from the upper layer.
+
+Arcus Tangent
+~~~~~~~~~~~~~
+
+Divides the lower layer by the top. Then divides this by Pi. Then uses
+that in an Arc tangent function, and multiplies it by two.
+
+Difference
+~~~~~~~~~~
+
+Checks per pixel of which layer the pixel-value is highest/lowest, and
+then subtracts the lower value from the higher-value.
+
+Equivelance
+~~~~~~~~~~~
+
+subtracts the underlying layer from the upper-layer. Then inverts that.
+
+Exclusion
+~~~~~~~~~
+
+This multiplies the two layers, adds the source, and then subtracts the
+multiple of two layers twice.
+
+Sources
+-------
+
+Basic blending modes: http://en.wikipedia.org/wiki/Blend_modes Grain
+Extract/Grain Merge:
+http://docs.gimp.org/en/gimp-concepts-layer-modes.html For most of
+Krita's mystery blendingmodes:
+http://illusions.hu/effectwiki/doku.php?id=list_of_blendings
+

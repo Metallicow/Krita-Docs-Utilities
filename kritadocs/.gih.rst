@@ -45,4 +45,3 @@ We have a `Krita Brush tip
 page <Special:MyLanguage/Brush-tips:Animated_Brush>`__ on how to create
 your own gih brush.
 
-`G <Category:File_Formats>`__

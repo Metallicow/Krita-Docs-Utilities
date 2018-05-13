@@ -10,4 +10,3 @@ This means that it can handle most grayscale images just fine and
 without losing any visible quality. But for color images that don't
 animate it might be better to use :doc:`.jpg` or :doc:`.png`.
 
-`G <category:File_Formats>`__

@@ -18,4 +18,3 @@ attempts at giving animation support to png, apng and mng, the former is
 unofficial and the latter too complicated, so neither have really taken
 off yet.
 
-`P <category:File_Formats>`__

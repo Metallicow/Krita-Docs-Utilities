@@ -20,4 +20,3 @@ are considered a bit obscure compared to raster graphics, not a lot of
 websites accept them yet. Hosting them on your own webhost works just
 fine though.
 
-`S <category:_File_Formats>`__

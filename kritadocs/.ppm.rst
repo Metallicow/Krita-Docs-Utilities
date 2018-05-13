@@ -11,4 +11,3 @@ usecases.
 
 .ppm can show 8bit rgb values.
 
-`P <category:File_Formats>`__

@@ -15,4 +15,3 @@ While pdfs can be viewed via most browsers, they can also become very
 heavy and are thus not recommended outside of official documents.
 Printhouses will often accept pdf.
 
-`P <category:File_Formats>`__

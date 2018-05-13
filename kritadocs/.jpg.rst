@@ -22,4 +22,3 @@ But for images with a lot of sharp contrasts, like text and comic book
 styles, png is a much better choice despite a larger file size. For
 grayscale images, png and gif will definitely be more efficient.
 
-`J <category:File_Formats>`__

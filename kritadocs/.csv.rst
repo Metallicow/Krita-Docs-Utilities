@@ -56,4 +56,3 @@ import this format.
 .csv import script for Blender:
 `https://developer.blender.org/T47462 <https://developer.blender.org/T47462>`__
 
-`C <category:_File_Formats>`__

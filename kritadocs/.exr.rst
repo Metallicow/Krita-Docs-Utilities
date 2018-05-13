@@ -17,4 +17,3 @@ Krita can load and save exr for the purpose of paint-over(yes, Krita can
 paint with scene referred values) and interchange with applications like
 Blender, Mari, Nuke and Natron.
 
-`E <category:File_Formats>`__

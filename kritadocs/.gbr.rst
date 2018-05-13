@@ -19,4 +19,3 @@ Use color as mask
 .gbr brushes are otherwise unremarkable, and limited to 8bit color
 precision.
 
-`G <Category:File_Formats>`__

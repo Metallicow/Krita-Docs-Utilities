@@ -11,4 +11,3 @@ usecases.
 
 .pgm can show 255 values of gray(8bit).
 
-`P <category:File_Formats>`__

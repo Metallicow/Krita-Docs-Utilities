@@ -11,4 +11,3 @@ usecases.
 
 .pbm is one-bit and can only show strict black and white.
 
-`P <category:File_Formats>`__

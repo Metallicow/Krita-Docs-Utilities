@@ -13,14 +13,16 @@ TODO List
  Image Stuff
  -----------
  [ ] Download all page images(this apparently has to be done manually for each page, as I do them). Sort them out into images/pagename directories.(Sphinx will drop them all into a single dir when building)
-        I've downloaded all images up to this page already `Bristle`
+        I've downloaded all images up to this page already `Flat Coloring`
 
- [ ] When all pages are done... Convert all .jpg to .png. 
+ [ ] When all pages are done... Convert all .jpg to .png.
      Then run all .png's thru FileOptimizer ->  https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/
      Sorry FileOptimizer is only 'Windows', ...tho linux/mac could make a port gui app. It's just a bunch of utilities and commandline options...
      This "should" fix the pdf artifacts...
 
  [ ] Rename images as approriate for readability and consistency. Ex: No 500px- stuff at the beginning of a filename.
+ 
+ [ ] lowercase all image extensions. Ex: .png instead of .PNG
 
  --------------
  Syntax Changes
@@ -40,9 +42,12 @@ TODO List
  [ ] What to do with the <tt> tag... probably just erase them.
 
  [ ] .. raw:: mediawiki stuff. Most are `Note` and `Warning`. :see: `Info` todo item below.
- 
+
  [ ] The mousebutton png and some other small images didnt show up in the converted rst. Check all these. :search: for these in the mediawiki files to pin down.
      As the mouse images are general, stick them into the substitutions.inc include file.
+
+ [ ] `New in Krita *version*` stuff is missing from the converted docs.
+      :see: * General_Settings.mediawiki/General_Settings.rst and :search: for these in the .mediawiki files to pin down all instances.
 
  --------------
  Page Structure
@@ -73,6 +78,7 @@ TODO List
      ...stuff like this:  <!--T:117-->
      * Basic_Concepts.rst  (Cleaned manually)
      * KritaFAQ.rst        (Still looks like a NIGHTMARE!)
+     * Color_Smudge.rst    (Cleaned manually)
 
  ---------------------
  Misc/Other/Discussion

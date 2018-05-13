@@ -12,4 +12,3 @@ fully open and easy to support.
 As an interchange format, it can be expected to be heavy and isn't meant
 for uploading to the internet.
 
-`O <category:File_Formats>`__

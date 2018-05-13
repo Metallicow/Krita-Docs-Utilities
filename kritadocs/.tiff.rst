@@ -14,4 +14,3 @@ As an interchange format, \*.tiff is not meant for sharing on the
 internet, and you will not find many websites that do accept it.
 However, printhouses know the file format, and will likely accept it.
 
-`T <category:_File_Formats>`__

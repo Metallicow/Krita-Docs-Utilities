@@ -34,4 +34,3 @@ with a strong preference towards :doc:`.ora` or :doc:`.tiff`.
 As a working file format, psds can be expected to become very heavy and
 most websites won't accept them.
 
-`P <category:_File_Formats>`__
